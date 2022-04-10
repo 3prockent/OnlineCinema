@@ -1,0 +1,140 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = CinemeOnlineWeb
+build_property.RootNamespace = CinemeOnlineWeb
+build_property.ProjectDir = C:\Vlad\C# proj\CinemeOnlineWeb\CinemeOnlineWeb\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = true
+build_property.MSBuildProjectDirectory = C:\Vlad\C# proj\CinemeOnlineWeb\CinemeOnlineWeb
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Vlad/C\# proj/CinemeOnlineWeb/CinemeOnlineWeb/Views/ActorPlays/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWN0b3JQbGF5c1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Vlad/C\# proj/CinemeOnlineWeb/CinemeOnlineWeb/Views/ActorPlays/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWN0b3JQbGF5c1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Vlad/C\# proj/CinemeOnlineWeb/CinemeOnlineWeb/Views/ActorPlays/DeleteConfirmed.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWN0b3JQbGF5c1xEZWxldGVDb25maXJtZWQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Vlad/C\# proj/CinemeOnlineWeb/CinemeOnlineWeb/Views/ActorPlays/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWN0b3JQbGF5c1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Vlad/C\# proj/CinemeOnlineWeb/CinemeOnlineWeb/Views/ActorPlays/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWN0b3JQbGF5c1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Vlad/C\# proj/CinemeOnlineWeb/CinemeOnlineWeb/Views/ActorPlays/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWN0b3JQbGF5c1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Vlad/C\# proj/CinemeOnlineWeb/CinemeOnlineWeb/Views/Actors/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWN0b3JzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Vlad/C\# proj/CinemeOnlineWeb/CinemeOnlineWeb/Views/Actors/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWN0b3JzXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Vlad/C\# proj/CinemeOnlineWeb/CinemeOnlineWeb/Views/Actors/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWN0b3JzXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Vlad/C\# proj/CinemeOnlineWeb/CinemeOnlineWeb/Views/Actors/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWN0b3JzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Vlad/C\# proj/CinemeOnlineWeb/CinemeOnlineWeb/Views/Actors/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWN0b3JzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Vlad/C\# proj/CinemeOnlineWeb/CinemeOnlineWeb/Views/CratorsTeams/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3JhdG9yc1RlYW1zXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Vlad/C\# proj/CinemeOnlineWeb/CinemeOnlineWeb/Views/CratorsTeams/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3JhdG9yc1RlYW1zXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Vlad/C\# proj/CinemeOnlineWeb/CinemeOnlineWeb/Views/CratorsTeams/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3JhdG9yc1RlYW1zXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Vlad/C\# proj/CinemeOnlineWeb/CinemeOnlineWeb/Views/CratorsTeams/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3JhdG9yc1RlYW1zXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Vlad/C\# proj/CinemeOnlineWeb/CinemeOnlineWeb/Views/CratorsTeams/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3JhdG9yc1RlYW1zXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Vlad/C\# proj/CinemeOnlineWeb/CinemeOnlineWeb/Views/Films/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmlsbXNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Vlad/C\# proj/CinemeOnlineWeb/CinemeOnlineWeb/Views/Films/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmlsbXNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Vlad/C\# proj/CinemeOnlineWeb/CinemeOnlineWeb/Views/Films/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmlsbXNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Vlad/C\# proj/CinemeOnlineWeb/CinemeOnlineWeb/Views/Films/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmlsbXNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Vlad/C\# proj/CinemeOnlineWeb/CinemeOnlineWeb/Views/Films/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmlsbXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Vlad/C\# proj/CinemeOnlineWeb/CinemeOnlineWeb/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Vlad/C\# proj/CinemeOnlineWeb/CinemeOnlineWeb/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Vlad/C\# proj/CinemeOnlineWeb/CinemeOnlineWeb/Views/JS.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSlMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Vlad/C\# proj/CinemeOnlineWeb/CinemeOnlineWeb/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Vlad/C\# proj/CinemeOnlineWeb/CinemeOnlineWeb/Views/Shared/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Vlad/C\# proj/CinemeOnlineWeb/CinemeOnlineWeb/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Vlad/C\# proj/CinemeOnlineWeb/CinemeOnlineWeb/Views/Shared/_Layout2.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Vlad/C\# proj/CinemeOnlineWeb/CinemeOnlineWeb/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Vlad/C\# proj/CinemeOnlineWeb/CinemeOnlineWeb/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Vlad/C\# proj/CinemeOnlineWeb/CinemeOnlineWeb/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 

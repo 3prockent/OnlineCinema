@@ -1,0 +1,67 @@
+﻿@model IEnumerable<CinemeOnlineWeb.ActorPlay>
+
+@{
+    ViewData["Title"] = "Roles";
+    Layout = "_Layout2";
+}
+
+
+<h1> @ViewBag.FilmName Actors</h1>
+
+<p>
+    <a asp-action="Create" asp-route-filmId="@ViewBag.filmId">Add New Actor</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Role)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Salary)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.QuantityScenes)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Actor)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Film)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Role)
+            </td>
+           
+            <td>
+                    @{
+                        string salaryFormat="";
+                        if (item.Salary.HasValue)
+                        {
+                            salaryFormat= item.Salary.Value.ToString("C", new System.Globalization.CultureInfo("es-Usa"));       
+                        }
+
+                    }
+                @Html.DisplayFor(modelItem => @salaryFormat);
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.QuantityScenes)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Actor.ActorName)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.ActorPlayId">Edit</a> |
+                <a asp-action="Details"  asp-controller="Actors" asp-route-id="@item.Actor.ActorId" asp-route-filmId="@item.FilmId">About Actor</a> |
+                <a asp-action="Delete" asp-route-id="@item.ActorPlayId">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

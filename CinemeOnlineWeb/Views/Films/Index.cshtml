@@ -1,0 +1,179 @@
+﻿@model IEnumerable<CinemeOnlineWeb.Film>
+
+@{
+    ViewData["Title"] = "Films";
+}
+
+<div id="failSearch" hidden class="alert alert-dismissible alert-danger">
+    <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+    <strong>Oh snap!</strong> Enter another search criteria.
+</div>
+
+
+<h1>Films</h1>
+
+<p>
+    <a asp-action="Create">Add New Film</a>
+</p>
+
+@using (Html.BeginForm("Import","Report", FormMethod.Post, new {enctype = "multipart/form-data", id = "frm-excel" }))
+{
+
+
+        <input id="input-path" type="file" accept=".xlsx, .xls" name ="fileExcel" class="form-control block"/>
+        <input id="export-submit" type="submit" value="Upload" class="btn btn-primary"/>
+}
+
+@using (Html.BeginForm("Export", "Report", FormMethod.Post))
+{
+        <input id="FilterInput" type="text" name="criteria" placeholder="Filter Films" class="block"/>
+        <div class="form-group block">
+            <input id="export-btn"type="submit" class="btn btn-primary" value="Download" />
+        </div>
+}
+
+<table id="FilterTable" class="table">
+    <thead>
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.FilmName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.YearRelease)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Duration)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Cost)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.CreationTeam)
+        </th>
+        <th></th>
+    </tr>
+    </thead>
+    <tbody>
+    @foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.FilmName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.YearRelease)
+            </td>
+            <td>
+                @{
+                    string formatDuration = item.Duration + "min";
+                }
+                @Html.DisplayFor(modelItem => formatDuration)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Cost)
+            </td>
+            <td>
+                <a asp-controller="CratorsTeams" asp-action="Details" asp-route-id="@item.CreationTeamId">@Html.DisplayFor(modelItem => item.CreationTeam.DirectorName)</a>
+            </td>
+            <td>
+                <a asp-action="Details" asp-route-filmId="@item.FilmId"> Actors Roles | </a>
+                <a asp-action="Delete" asp-route-id="@item.FilmId">Delete</a>
+            </td>
+        </tr>
+    }
+    </tbody>
+</table>
+
+<div class="parent">
+    <div class="block" id="dur-div"></div>
+    <div class="block" id="spent-div"></div>
+    <div class="block" id="role-div"></div>
+</div> 
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+<script type="text/javascript">
+    google.charts.load("current", { "packages": ["corechart"] });
+
+
+    google.charts.setOnLoadCallback(drawSpentChart);
+    google.charts.setOnLoadCallback(drawDurationChart);
+    google.charts.setOnLoadCallback(drawActorsChart);
+
+
+    function drawDurationChart() {
+
+        var data = google.visualization.arrayToDataTable([["Film", "Duration"], ["Infinity War", 150], ["Captain America: The Winter Soldier", 136], ["Captain America: Civil War", 147], ["Avengers: Endgame", 218], ["Spider-Man: Homecoming", 133], ["Spider-Man: Far From Home", 154], ["\tSpider-Man: No Way Home", 160], ["Cop Car", 142]], false);
+        chart = new google.visualization.PieChart(document.getElementById("dur-div"));
+
+        var options = {
+            title: "Duration of films",
+            titleTextStyle: { color: "white" },
+            legend: { textStyle: { color: "white" } },
+            chartArea: { width: '85%', height: '75%' },
+            height: 400,
+            width:450,
+            is3D: true,
+            backgroundColor:'#222222'
+
+        }
+        chart.draw(data, options);
+    }
+
+    function drawSpentChart() {
+        var rawdata = [["Film", "Spent"], ["Infinity War", 316000000], ["Captain America: The Winter Soldier", 170000000], ["Captain America: Civil War", 250000000], ["Avengers: Endgame", 350000000], ["Spider-Man: Homecoming", 175000000], ["Spider-Man: Far From Home", 154000000], ["\tSpider-Man: No Way Home", 210000000], ["Cop Car", 85000000]];
+        rawdata.forEach(array => array[2] = "yellow");
+        rawdata[0][2] = { role: "style" };
+        var data = google.visualization.arrayToDataTable(rawdata);
+        chart = new google.visualization.ColumnChart(document.getElementById("spent-div"));
+
+        var options = {
+            title: "Spent on film",
+            titleTextStyle: { color: 'white' },
+            height: 400,
+            width: 500,
+            chartArea: { backgroundColor: "blue",right:30,  width: '65%', height: '75%'},
+                        
+            hAxis: {
+                textStyle: { color: "white" }
+            },
+            legend: {
+                position: "none"
+            },
+            tooltip: {
+                textStyle: {
+                    color: "green"
+                }
+            },
+            vAxis: {
+                textStyle: { color: "white" }
+            },
+            backgroundColor:"#222222"
+        }
+                   
+        chart.draw(data, options);
+    }
+
+    function drawActorsChart() {
+        var data = google.visualization.arrayToDataTable([["Film", "Roles"], ["Infinity War", 0], ["Captain America: The Winter Soldier", 0], ["Captain America: Civil War", 0], ["Avengers: Endgame", 0], ["Spider-Man: Homecoming", 7], ["Spider-Man: Far From Home", 6], ["\tSpider-Man: No Way Home", 8], ["Cop Car", 6]], false);
+        chart = new google.visualization.PieChart(document.getElementById("role-div"));
+
+        var options = {
+            title: "Count of ActorPlays",
+            titleTextStyle: { color: "white" },
+            legend: { textStyle: { color: "white" } },
+            chartArea: { right:0,width: '90%', height:"80%" },
+            height: 400,
+            width: 450,
+            backgroundColor: '#222222',
+            pieHole: 0.4
+        }
+        chart.draw(data, options);
+    } 
+</script>  <!--ChartScript-->
+
+<script src="js/report.js" type="text/javascript"></script>
+
+<script src="js/site.js" type="text/javascript"></script>
+
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>

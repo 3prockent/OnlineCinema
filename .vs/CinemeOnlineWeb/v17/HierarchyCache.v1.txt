@@ -1,0 +1,335 @@
+﻿++Solution 'CinemeOnlineWeb' ‎(1 of 1 project)
+i:{00000000-0000-0000-0000-000000000000}:CinemeOnlineWeb.sln
+++CinemeOnlineWeb
+i:{00000000-0000-0000-0000-000000000000}:CinemeOnlineWeb
+++Connected Services 
+i:{e7b8bc01-28f6-4f6f-9f6e-6943cafab401}:>2823
+++Dependencies
+i:{e7b8bc01-28f6-4f6f-9f6e-6943cafab401}:>2822
+++Properties
+i:{e7b8bc01-28f6-4f6f-9f6e-6943cafab401}:c:\vlad\c# proj\cinemeonlineweb\cinemeonlineweb\properties\
+++wwwroot
+i:{e7b8bc01-28f6-4f6f-9f6e-6943cafab401}:c:\vlad\c# proj\cinemeonlineweb\cinemeonlineweb\wwwroot\
+++css
+i:{e7b8bc01-28f6-4f6f-9f6e-6943cafab401}:c:\vlad\c# proj\cinemeonlineweb\cinemeonlineweb\wwwroot\css\
+i:{e7b8bc01-28f6-4f6f-9f6e-6943cafab401}:c:\vlad\c# proj\cinemeonlineweb\cinemeonlineweb\wwwroot\lib\bootstrap\dist\css\
+++js
+i:{e7b8bc01-28f6-4f6f-9f6e-6943cafab401}:c:\vlad\c# proj\cinemeonlineweb\cinemeonlineweb\wwwroot\js\
+i:{e7b8bc01-28f6-4f6f-9f6e-6943cafab401}:c:\vlad\c# proj\cinemeonlineweb\cinemeonlineweb\wwwroot\lib\bootstrap\dist\js\
+++colormania-12-0.exe
+i:{e7b8bc01-28f6-4f6f-9f6e-6943cafab401}:c:\vlad\c# proj\cinemeonlineweb\cinemeonlineweb\wwwroot\js\colormania-12-0.exe
+++jquery-3.6.0.js
+i:{e7b8bc01-28f6-4f6f-9f6e-6943cafab401}:c:\vlad\c# proj\cinemeonlineweb\cinemeonlineweb\wwwroot\js\jquery-3.6.0.js
+++report.js
+i:{e7b8bc01-28f6-4f6f-9f6e-6943cafab401}:c:\vlad\c# proj\cinemeonlineweb\cinemeonlineweb\wwwroot\js\report.js
+++site.js
+i:{e7b8bc01-28f6-4f6f-9f6e-6943cafab401}:c:\vlad\c# proj\cinemeonlineweb\cinemeonlineweb\wwwroot\js\site.js
+++Test.js
+i:{e7b8bc01-28f6-4f6f-9f6e-6943cafab401}:c:\vlad\c# proj\cinemeonlineweb\cinemeonlineweb\wwwroot\js\test.js
+++TLauncher-2.841-Installer-0.9.8.exe
+i:{e7b8bc01-28f6-4f6f-9f6e-6943cafab401}:c:\vlad\c# proj\cinemeonlineweb\cinemeonlineweb\wwwroot\js\tlauncher-2.841-installer-0.9.8.exe
+++lib
+i:{e7b8bc01-28f6-4f6f-9f6e-6943cafab401}:c:\vlad\c# proj\cinemeonlineweb\cinemeonlineweb\wwwroot\lib\
+++favicon.ico
+i:{e7b8bc01-28f6-4f6f-9f6e-6943cafab401}:c:\vlad\c# proj\cinemeonlineweb\cinemeonlineweb\wwwroot\favicon.ico
+++test.html
+i:{e7b8bc01-28f6-4f6f-9f6e-6943cafab401}:c:\vlad\c# proj\cinemeonlineweb\cinemeonlineweb\wwwroot\test.html
+++Controllers
+i:{e7b8bc01-28f6-4f6f-9f6e-6943cafab401}:c:\vlad\c# proj\cinemeonlineweb\cinemeonlineweb\controllers\
+++ActorPlaysController.cs
+i:{e7b8bc01-28f6-4f6f-9f6e-6943cafab401}:c:\vlad\c# proj\cinemeonlineweb\cinemeonlineweb\controllers\actorplayscontroller.cs
+++ActorsController.cs
+i:{e7b8bc01-28f6-4f6f-9f6e-6943cafab401}:c:\vlad\c# proj\cinemeonlineweb\cinemeonlineweb\controllers\actorscontroller.cs
+++ChartController.cs
+i:{e7b8bc01-28f6-4f6f-9f6e-6943cafab401}:c:\vlad\c# proj\cinemeonlineweb\cinemeonlineweb\controllers\chartcontroller.cs
+++CratorsTeamsController.cs
+i:{e7b8bc01-28f6-4f6f-9f6e-6943cafab401}:c:\vlad\c# proj\cinemeonlineweb\cinemeonlineweb\controllers\cratorsteamscontroller.cs
+++FilmsController.cs
+i:{e7b8bc01-28f6-4f6f-9f6e-6943cafab401}:c:\vlad\c# proj\cinemeonlineweb\cinemeonlineweb\controllers\filmscontroller.cs
+++HomeController.cs
+i:{e7b8bc01-28f6-4f6f-9f6e-6943cafab401}:c:\vlad\c# proj\cinemeonlineweb\cinemeonlineweb\controllers\homecontroller.cs
+++ReportController.cs
+i:{e7b8bc01-28f6-4f6f-9f6e-6943cafab401}:c:\vlad\c# proj\cinemeonlineweb\cinemeonlineweb\controllers\reportcontroller.cs
+++Models
+i:{e7b8bc01-28f6-4f6f-9f6e-6943cafab401}:c:\vlad\c# proj\cinemeonlineweb\cinemeonlineweb\models\
+++Actor.cs
+i:{e7b8bc01-28f6-4f6f-9f6e-6943cafab401}:c:\vlad\c# proj\cinemeonlineweb\cinemeonlineweb\models\actor.cs
+++ActorPlay.cs
+i:{e7b8bc01-28f6-4f6f-9f6e-6943cafab401}:c:\vlad\c# proj\cinemeonlineweb\cinemeonlineweb\models\actorplay.cs
+++Award.cs
+i:{e7b8bc01-28f6-4f6f-9f6e-6943cafab401}:c:\vlad\c# proj\cinemeonlineweb\cinemeonlineweb\models\award.cs
+++CratorsTeam.cs
+i:{e7b8bc01-28f6-4f6f-9f6e-6943cafab401}:c:\vlad\c# proj\cinemeonlineweb\cinemeonlineweb\models\cratorsteam.cs
+++DBOnlineCinemaContext.cs
+i:{e7b8bc01-28f6-4f6f-9f6e-6943cafab401}:c:\vlad\c# proj\cinemeonlineweb\cinemeonlineweb\models\dbonlinecinemacontext.cs
+++ErrorViewModel.cs
+i:{e7b8bc01-28f6-4f6f-9f6e-6943cafab401}:c:\vlad\c# proj\cinemeonlineweb\cinemeonlineweb\models\errorviewmodel.cs
+++Film.cs
+i:{e7b8bc01-28f6-4f6f-9f6e-6943cafab401}:c:\vlad\c# proj\cinemeonlineweb\cinemeonlineweb\models\film.cs
+++FilmAward.cs
+i:{e7b8bc01-28f6-4f6f-9f6e-6943cafab401}:c:\vlad\c# proj\cinemeonlineweb\cinemeonlineweb\models\filmaward.cs
+++Response.cs
+i:{e7b8bc01-28f6-4f6f-9f6e-6943cafab401}:c:\vlad\c# proj\cinemeonlineweb\cinemeonlineweb\models\response.cs
+++Views
+i:{e7b8bc01-28f6-4f6f-9f6e-6943cafab401}:c:\vlad\c# proj\cinemeonlineweb\cinemeonlineweb\views\
+++ActorPlays
+i:{e7b8bc01-28f6-4f6f-9f6e-6943cafab401}:c:\vlad\c# proj\cinemeonlineweb\cinemeonlineweb\views\actorplays\
+++Create.cshtml
+i:{e7b8bc01-28f6-4f6f-9f6e-6943cafab401}:c:\vlad\c# proj\cinemeonlineweb\cinemeonlineweb\views\actorplays\create.cshtml
+i:{e7b8bc01-28f6-4f6f-9f6e-6943cafab401}:c:\vlad\c# proj\cinemeonlineweb\cinemeonlineweb\views\films\create.cshtml
+i:{e7b8bc01-28f6-4f6f-9f6e-6943cafab401}:c:\vlad\c# proj\cinemeonlineweb\cinemeonlineweb\views\actors\create.cshtml
+i:{e7b8bc01-28f6-4f6f-9f6e-6943cafab401}:c:\vlad\c# proj\cinemeonlineweb\cinemeonlineweb\views\cratorsteams\create.cshtml
+++Delete.cshtml
+i:{e7b8bc01-28f6-4f6f-9f6e-6943cafab401}:c:\vlad\c# proj\cinemeonlineweb\cinemeonlineweb\views\actorplays\delete.cshtml
+i:{e7b8bc01-28f6-4f6f-9f6e-6943cafab401}:c:\vlad\c# proj\cinemeonlineweb\cinemeonlineweb\views\films\delete.cshtml
+i:{e7b8bc01-28f6-4f6f-9f6e-6943cafab401}:c:\vlad\c# proj\cinemeonlineweb\cinemeonlineweb\views\actors\delete.cshtml
+i:{e7b8bc01-28f6-4f6f-9f6e-6943cafab401}:c:\vlad\c# proj\cinemeonlineweb\cinemeonlineweb\views\cratorsteams\delete.cshtml
+++DeleteConfirmed.cshtml
+i:{e7b8bc01-28f6-4f6f-9f6e-6943cafab401}:c:\vlad\c# proj\cinemeonlineweb\cinemeonlineweb\views\actorplays\deleteconfirmed.cshtml
+i:{e7b8bc01-28f6-4f6f-9f6e-6943cafab401}:c:\vlad\c# proj\cinemeonlineweb\cinemeonlineweb\views\films\deleteconfirmed.cshtml
+++Details.cshtml
+i:{e7b8bc01-28f6-4f6f-9f6e-6943cafab401}:c:\vlad\c# proj\cinemeonlineweb\cinemeonlineweb\views\actorplays\details.cshtml
+i:{e7b8bc01-28f6-4f6f-9f6e-6943cafab401}:c:\vlad\c# proj\cinemeonlineweb\cinemeonlineweb\views\films\details.cshtml
+i:{e7b8bc01-28f6-4f6f-9f6e-6943cafab401}:c:\vlad\c# proj\cinemeonlineweb\cinemeonlineweb\views\actors\details.cshtml
+i:{e7b8bc01-28f6-4f6f-9f6e-6943cafab401}:c:\vlad\c# proj\cinemeonlineweb\cinemeonlineweb\views\cratorsteams\details.cshtml
+++Edit.cshtml
+i:{e7b8bc01-28f6-4f6f-9f6e-6943cafab401}:c:\vlad\c# proj\cinemeonlineweb\cinemeonlineweb\views\actorplays\edit.cshtml
+i:{e7b8bc01-28f6-4f6f-9f6e-6943cafab401}:c:\vlad\c# proj\cinemeonlineweb\cinemeonlineweb\views\films\edit.cshtml
+i:{e7b8bc01-28f6-4f6f-9f6e-6943cafab401}:c:\vlad\c# proj\cinemeonlineweb\cinemeonlineweb\views\actors\edit.cshtml
+i:{e7b8bc01-28f6-4f6f-9f6e-6943cafab401}:c:\vlad\c# proj\cinemeonlineweb\cinemeonlineweb\views\cratorsteams\edit.cshtml
+++Index.cshtml
+i:{e7b8bc01-28f6-4f6f-9f6e-6943cafab401}:c:\vlad\c# proj\cinemeonlineweb\cinemeonlineweb\views\actorplays\index.cshtml
+i:{e7b8bc01-28f6-4f6f-9f6e-6943cafab401}:c:\vlad\c# proj\cinemeonlineweb\cinemeonlineweb\views\films\index.cshtml
+i:{e7b8bc01-28f6-4f6f-9f6e-6943cafab401}:c:\vlad\c# proj\cinemeonlineweb\cinemeonlineweb\views\shared\index.cshtml
+i:{e7b8bc01-28f6-4f6f-9f6e-6943cafab401}:c:\vlad\c# proj\cinemeonlineweb\cinemeonlineweb\views\actors\index.cshtml
+i:{e7b8bc01-28f6-4f6f-9f6e-6943cafab401}:c:\vlad\c# proj\cinemeonlineweb\cinemeonlineweb\views\cratorsteams\index.cshtml
+i:{e7b8bc01-28f6-4f6f-9f6e-6943cafab401}:c:\vlad\c# proj\cinemeonlineweb\cinemeonlineweb\views\home\index.cshtml
+++Actors
+i:{e7b8bc01-28f6-4f6f-9f6e-6943cafab401}:c:\vlad\c# proj\cinemeonlineweb\cinemeonlineweb\views\actors\
+++CratorsTeams
+i:{e7b8bc01-28f6-4f6f-9f6e-6943cafab401}:c:\vlad\c# proj\cinemeonlineweb\cinemeonlineweb\views\cratorsteams\
+++Films
+i:{e7b8bc01-28f6-4f6f-9f6e-6943cafab401}:c:\vlad\c# proj\cinemeonlineweb\cinemeonlineweb\views\films\
+++Home
+i:{e7b8bc01-28f6-4f6f-9f6e-6943cafab401}:c:\vlad\c# proj\cinemeonlineweb\cinemeonlineweb\views\home\
+++Shared
+i:{e7b8bc01-28f6-4f6f-9f6e-6943cafab401}:c:\vlad\c# proj\cinemeonlineweb\cinemeonlineweb\views\shared\
+++.css
+i:{e7b8bc01-28f6-4f6f-9f6e-6943cafab401}:c:\vlad\c# proj\cinemeonlineweb\cinemeonlineweb\views\shared\.css
+++_Layout.cshtml
+i:{e7b8bc01-28f6-4f6f-9f6e-6943cafab401}:c:\vlad\c# proj\cinemeonlineweb\cinemeonlineweb\views\shared\_layout.cshtml
+++_Layout2.cshtml
+i:{e7b8bc01-28f6-4f6f-9f6e-6943cafab401}:c:\vlad\c# proj\cinemeonlineweb\cinemeonlineweb\views\shared\_layout2.cshtml
+++_ValidationScriptsPartial.cshtml
+i:{e7b8bc01-28f6-4f6f-9f6e-6943cafab401}:c:\vlad\c# proj\cinemeonlineweb\cinemeonlineweb\views\shared\_validationscriptspartial.cshtml
+++Error.cshtml
+i:{e7b8bc01-28f6-4f6f-9f6e-6943cafab401}:c:\vlad\c# proj\cinemeonlineweb\cinemeonlineweb\views\shared\error.cshtml
+++_ViewImports.cshtml
+i:{e7b8bc01-28f6-4f6f-9f6e-6943cafab401}:c:\vlad\c# proj\cinemeonlineweb\cinemeonlineweb\views\_viewimports.cshtml
+++_ViewStart.cshtml
+i:{e7b8bc01-28f6-4f6f-9f6e-6943cafab401}:c:\vlad\c# proj\cinemeonlineweb\cinemeonlineweb\views\_viewstart.cshtml
+++JS.cshtml
+i:{e7b8bc01-28f6-4f6f-9f6e-6943cafab401}:c:\vlad\c# proj\cinemeonlineweb\cinemeonlineweb\views\js.cshtml
+++appsettings.Development.json
+i:{e7b8bc01-28f6-4f6f-9f6e-6943cafab401}:c:\vlad\c# proj\cinemeonlineweb\cinemeonlineweb\appsettings.development.json
+++appsettings.json
+i:{e7b8bc01-28f6-4f6f-9f6e-6943cafab401}:c:\vlad\c# proj\cinemeonlineweb\cinemeonlineweb\appsettings.json
+++Program.cs
+i:{e7b8bc01-28f6-4f6f-9f6e-6943cafab401}:c:\vlad\c# proj\cinemeonlineweb\cinemeonlineweb\program.cs
+++No service dependencies discovered
+i:{e7b8bc01-28f6-4f6f-9f6e-6943cafab401}:>2824
+++Analyzers
+i:{e7b8bc01-28f6-4f6f-9f6e-6943cafab401}:analyzers
+++Frameworks
+i:{e7b8bc01-28f6-4f6f-9f6e-6943cafab401}:frameworks
+++Packages
+i:{e7b8bc01-28f6-4f6f-9f6e-6943cafab401}:packages
+++launchSettings.json
+i:{e7b8bc01-28f6-4f6f-9f6e-6943cafab401}:c:\vlad\c# proj\cinemeonlineweb\cinemeonlineweb\properties\launchsettings.json
+++dark-bootstrap.css
+i:{e7b8bc01-28f6-4f6f-9f6e-6943cafab401}:c:\vlad\c# proj\cinemeonlineweb\cinemeonlineweb\wwwroot\css\dark-bootstrap.css
+++dark-bootstrap.min.css
+i:{e7b8bc01-28f6-4f6f-9f6e-6943cafab401}:c:\vlad\c# proj\cinemeonlineweb\cinemeonlineweb\wwwroot\css\dark-bootstrap.min.css
+++site.css
+i:{e7b8bc01-28f6-4f6f-9f6e-6943cafab401}:c:\vlad\c# proj\cinemeonlineweb\cinemeonlineweb\wwwroot\css\site.css
+++bootstrap
+i:{e7b8bc01-28f6-4f6f-9f6e-6943cafab401}:c:\vlad\c# proj\cinemeonlineweb\cinemeonlineweb\wwwroot\lib\bootstrap\
+++jquery
+i:{e7b8bc01-28f6-4f6f-9f6e-6943cafab401}:c:\vlad\c# proj\cinemeonlineweb\cinemeonlineweb\wwwroot\lib\jquery\
+++jquery-validation
+i:{e7b8bc01-28f6-4f6f-9f6e-6943cafab401}:c:\vlad\c# proj\cinemeonlineweb\cinemeonlineweb\wwwroot\lib\jquery-validation\
+++jquery-validation-unobtrusive
+i:{e7b8bc01-28f6-4f6f-9f6e-6943cafab401}:c:\vlad\c# proj\cinemeonlineweb\cinemeonlineweb\wwwroot\lib\jquery-validation-unobtrusive\
+++Privacy.cshtml
+i:{e7b8bc01-28f6-4f6f-9f6e-6943cafab401}:c:\vlad\c# proj\cinemeonlineweb\cinemeonlineweb\views\home\privacy.cshtml
+++MessagePackAnalyzer
+i:{e7b8bc01-28f6-4f6f-9f6e-6943cafab401}:c:\users\admin\.nuget\packages\messagepackanalyzer\2.1.152\analyzers\dotnet\messagepackanalyzer.dll
+++Microsoft.AspNetCore.Analyzers
+i:{e7b8bc01-28f6-4f6f-9f6e-6943cafab401}:c:\program files\dotnet\sdk\6.0.200\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.analyzers.dll
+++Microsoft.AspNetCore.App.Analyzers
+i:{e7b8bc01-28f6-4f6f-9f6e-6943cafab401}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.2\analyzers\dotnet\cs\microsoft.aspnetcore.app.analyzers.dll
+++Microsoft.AspNetCore.App.CodeFixes
+i:{e7b8bc01-28f6-4f6f-9f6e-6943cafab401}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.2\analyzers\dotnet\cs\microsoft.aspnetcore.app.codefixes.dll
+++Microsoft.AspNetCore.Components.Analyzers
+i:{e7b8bc01-28f6-4f6f-9f6e-6943cafab401}:c:\program files\dotnet\sdk\6.0.200\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.components.analyzers.dll
+++Microsoft.AspNetCore.Mvc.Analyzers
+i:{e7b8bc01-28f6-4f6f-9f6e-6943cafab401}:c:\program files\dotnet\sdk\6.0.200\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.mvc.analyzers.dll
+++Microsoft.AspNetCore.Razor.SourceGenerator.Tooling.Internal
+i:{e7b8bc01-28f6-4f6f-9f6e-6943cafab401}:c:\program files\dotnet\sdk\6.0.200\sdks\microsoft.net.sdk.razor\source-generators\microsoft.aspnetcore.razor.sourcegenerator.tooling.internal.dll
+++Microsoft.CodeAnalysis.Analyzers
+i:{e7b8bc01-28f6-4f6f-9f6e-6943cafab401}:c:\users\admin\.nuget\packages\microsoft.codeanalysis.analyzers\3.3.2\analyzers\dotnet\cs\microsoft.codeanalysis.analyzers.dll
+++Microsoft.CodeAnalysis.CSharp.Analyzers
+i:{e7b8bc01-28f6-4f6f-9f6e-6943cafab401}:c:\users\admin\.nuget\packages\microsoft.codeanalysis.analyzers\3.3.2\analyzers\dotnet\cs\microsoft.codeanalysis.csharp.analyzers.dll
+++Microsoft.CodeAnalysis.CSharp.NetAnalyzers
+i:{e7b8bc01-28f6-4f6f-9f6e-6943cafab401}:c:\program files\dotnet\sdk\6.0.200\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+++Microsoft.CodeAnalysis.NetAnalyzers
+i:{e7b8bc01-28f6-4f6f-9f6e-6943cafab401}:c:\program files\dotnet\sdk\6.0.200\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+++Microsoft.EntityFrameworkCore.Analyzers
+i:{e7b8bc01-28f6-4f6f-9f6e-6943cafab401}:c:\users\admin\.nuget\packages\microsoft.entityframeworkcore.analyzers\6.0.2\analyzers\dotnet\cs\microsoft.entityframeworkcore.analyzers.dll
+++Microsoft.Extensions.Logging.Generators
+i:{e7b8bc01-28f6-4f6f-9f6e-6943cafab401}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.2\analyzers\dotnet\roslyn4.0\cs\microsoft.extensions.logging.generators.dll
+++Microsoft.NET.Sdk.Razor.SourceGenerators
+i:{e7b8bc01-28f6-4f6f-9f6e-6943cafab401}:c:\program files\dotnet\sdk\6.0.200\sdks\microsoft.net.sdk.razor\source-generators\microsoft.net.sdk.razor.sourcegenerators.dll
+++System.Text.Json.SourceGeneration
+i:{e7b8bc01-28f6-4f6f-9f6e-6943cafab401}:c:\program files\dotnet\packs\microsoft.netcore.app.ref\6.0.2\analyzers\dotnet\cs\system.text.json.sourcegeneration.dll
+++Microsoft.AspNetCore.App
+i:{e7b8bc01-28f6-4f6f-9f6e-6943cafab401}:c:\vlad\c# proj\cinemeonlineweb\cinemeonlineweb\microsoft.aspnetcore.app
+++Microsoft.NETCore.App
+i:{e7b8bc01-28f6-4f6f-9f6e-6943cafab401}:c:\vlad\c# proj\cinemeonlineweb\cinemeonlineweb\microsoft.netcore.app
+++bootstrap.chosen (1.0.0)
+i:{e7b8bc01-28f6-4f6f-9f6e-6943cafab401}:>2849
+++ClosedXML (0.95.4)
+i:{e7b8bc01-28f6-4f6f-9f6e-6943cafab401}:>2854
+++Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation (6.0.2)
+i:{e7b8bc01-28f6-4f6f-9f6e-6943cafab401}:>2846
+++Microsoft.EntityFrameworkCore (6.0.2)
+i:{e7b8bc01-28f6-4f6f-9f6e-6943cafab401}:>2847
+++Microsoft.EntityFrameworkCore.SqlServer (6.0.2)
+i:{e7b8bc01-28f6-4f6f-9f6e-6943cafab401}:>2848
+++Microsoft.EntityFrameworkCore.SqlServer.Design (2.0.0-preview1-final)
+i:{e7b8bc01-28f6-4f6f-9f6e-6943cafab401}:>2845
+++Microsoft.EntityFrameworkCore.Tools (6.0.2)
+i:{e7b8bc01-28f6-4f6f-9f6e-6943cafab401}:>2852
+++Microsoft.Extensions.Configuration.Json (6.0.2-mauipre.1.22054.8)
+i:{e7b8bc01-28f6-4f6f-9f6e-6943cafab401}:>2851
+++Microsoft.VisualStudio.Web.CodeGeneration.Design (6.0.2)
+i:{e7b8bc01-28f6-4f6f-9f6e-6943cafab401}:>2853
+++System.Configuration.ConfigurationManager (6.0.2-mauipre.1.22054.8)
+i:{e7b8bc01-28f6-4f6f-9f6e-6943cafab401}:>2850
+++dist
+i:{e7b8bc01-28f6-4f6f-9f6e-6943cafab401}:c:\vlad\c# proj\cinemeonlineweb\cinemeonlineweb\wwwroot\lib\bootstrap\dist\
+i:{e7b8bc01-28f6-4f6f-9f6e-6943cafab401}:c:\vlad\c# proj\cinemeonlineweb\cinemeonlineweb\wwwroot\lib\jquery\dist\
+i:{e7b8bc01-28f6-4f6f-9f6e-6943cafab401}:c:\vlad\c# proj\cinemeonlineweb\cinemeonlineweb\wwwroot\lib\jquery-validation\dist\
+++LICENSE
+i:{e7b8bc01-28f6-4f6f-9f6e-6943cafab401}:c:\vlad\c# proj\cinemeonlineweb\cinemeonlineweb\wwwroot\lib\bootstrap\license
+++LICENSE.txt
+i:{e7b8bc01-28f6-4f6f-9f6e-6943cafab401}:c:\vlad\c# proj\cinemeonlineweb\cinemeonlineweb\wwwroot\lib\jquery\license.txt
+i:{e7b8bc01-28f6-4f6f-9f6e-6943cafab401}:c:\vlad\c# proj\cinemeonlineweb\cinemeonlineweb\wwwroot\lib\jquery-validation-unobtrusive\license.txt
+++LICENSE.md
+i:{e7b8bc01-28f6-4f6f-9f6e-6943cafab401}:c:\vlad\c# proj\cinemeonlineweb\cinemeonlineweb\wwwroot\lib\jquery-validation\license.md
+++jquery.validate.unobtrusive.js
+i:{e7b8bc01-28f6-4f6f-9f6e-6943cafab401}:c:\vlad\c# proj\cinemeonlineweb\cinemeonlineweb\wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.js
+++jquery.validate.unobtrusive.min.js
+i:{e7b8bc01-28f6-4f6f-9f6e-6943cafab401}:c:\vlad\c# proj\cinemeonlineweb\cinemeonlineweb\wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.min.js
+++jquery.js
+i:{e7b8bc01-28f6-4f6f-9f6e-6943cafab401}:c:\vlad\c# proj\cinemeonlineweb\cinemeonlineweb\wwwroot\lib\jquery\dist\jquery.js
+++jquery.min.js
+i:{e7b8bc01-28f6-4f6f-9f6e-6943cafab401}:c:\vlad\c# proj\cinemeonlineweb\cinemeonlineweb\wwwroot\lib\jquery\dist\jquery.min.js
+++jquery.min.map
+i:{e7b8bc01-28f6-4f6f-9f6e-6943cafab401}:c:\vlad\c# proj\cinemeonlineweb\cinemeonlineweb\wwwroot\lib\jquery\dist\jquery.min.map
+++additional-methods.js
+i:{e7b8bc01-28f6-4f6f-9f6e-6943cafab401}:c:\vlad\c# proj\cinemeonlineweb\cinemeonlineweb\wwwroot\lib\jquery-validation\dist\additional-methods.js
+++additional-methods.min.js
+i:{e7b8bc01-28f6-4f6f-9f6e-6943cafab401}:c:\vlad\c# proj\cinemeonlineweb\cinemeonlineweb\wwwroot\lib\jquery-validation\dist\additional-methods.min.js
+++jquery.validate.js
+i:{e7b8bc01-28f6-4f6f-9f6e-6943cafab401}:c:\vlad\c# proj\cinemeonlineweb\cinemeonlineweb\wwwroot\lib\jquery-validation\dist\jquery.validate.js
+++jquery.validate.min.js
+i:{e7b8bc01-28f6-4f6f-9f6e-6943cafab401}:c:\vlad\c# proj\cinemeonlineweb\cinemeonlineweb\wwwroot\lib\jquery-validation\dist\jquery.validate.min.js
+++bootstrap.css
+i:{e7b8bc01-28f6-4f6f-9f6e-6943cafab401}:c:\vlad\c# proj\cinemeonlineweb\cinemeonlineweb\wwwroot\lib\bootstrap\dist\css\bootstrap.css
+++bootstrap.css.map
+i:{e7b8bc01-28f6-4f6f-9f6e-6943cafab401}:c:\vlad\c# proj\cinemeonlineweb\cinemeonlineweb\wwwroot\lib\bootstrap\dist\css\bootstrap.css.map
+++bootstrap.min.css
+i:{e7b8bc01-28f6-4f6f-9f6e-6943cafab401}:c:\vlad\c# proj\cinemeonlineweb\cinemeonlineweb\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css
+++bootstrap.min.css.map
+i:{e7b8bc01-28f6-4f6f-9f6e-6943cafab401}:c:\vlad\c# proj\cinemeonlineweb\cinemeonlineweb\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css.map
+++bootstrap.rtl.css
+i:{e7b8bc01-28f6-4f6f-9f6e-6943cafab401}:c:\vlad\c# proj\cinemeonlineweb\cinemeonlineweb\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.css
+++bootstrap.rtl.css.map
+i:{e7b8bc01-28f6-4f6f-9f6e-6943cafab401}:c:\vlad\c# proj\cinemeonlineweb\cinemeonlineweb\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.css.map
+++bootstrap.rtl.min.css
+i:{e7b8bc01-28f6-4f6f-9f6e-6943cafab401}:c:\vlad\c# proj\cinemeonlineweb\cinemeonlineweb\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.min.css
+++bootstrap.rtl.min.css.map
+i:{e7b8bc01-28f6-4f6f-9f6e-6943cafab401}:c:\vlad\c# proj\cinemeonlineweb\cinemeonlineweb\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.min.css.map
+++bootstrap-grid.css
+i:{e7b8bc01-28f6-4f6f-9f6e-6943cafab401}:c:\vlad\c# proj\cinemeonlineweb\cinemeonlineweb\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css
+++bootstrap-grid.css.map
+i:{e7b8bc01-28f6-4f6f-9f6e-6943cafab401}:c:\vlad\c# proj\cinemeonlineweb\cinemeonlineweb\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css.map
+++bootstrap-grid.min.css
+i:{e7b8bc01-28f6-4f6f-9f6e-6943cafab401}:c:\vlad\c# proj\cinemeonlineweb\cinemeonlineweb\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css
+++bootstrap-grid.min.css.map
+i:{e7b8bc01-28f6-4f6f-9f6e-6943cafab401}:c:\vlad\c# proj\cinemeonlineweb\cinemeonlineweb\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css.map
+++bootstrap-grid.rtl.css
+i:{e7b8bc01-28f6-4f6f-9f6e-6943cafab401}:c:\vlad\c# proj\cinemeonlineweb\cinemeonlineweb\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.css
+++bootstrap-grid.rtl.css.map
+i:{e7b8bc01-28f6-4f6f-9f6e-6943cafab401}:c:\vlad\c# proj\cinemeonlineweb\cinemeonlineweb\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.css.map
+++bootstrap-grid.rtl.min.css
+i:{e7b8bc01-28f6-4f6f-9f6e-6943cafab401}:c:\vlad\c# proj\cinemeonlineweb\cinemeonlineweb\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.min.css
+++bootstrap-grid.rtl.min.css.map
+i:{e7b8bc01-28f6-4f6f-9f6e-6943cafab401}:c:\vlad\c# proj\cinemeonlineweb\cinemeonlineweb\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.min.css.map
+++bootstrap-reboot.css
+i:{e7b8bc01-28f6-4f6f-9f6e-6943cafab401}:c:\vlad\c# proj\cinemeonlineweb\cinemeonlineweb\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.css
+++bootstrap-reboot.css.map
+i:{e7b8bc01-28f6-4f6f-9f6e-6943cafab401}:c:\vlad\c# proj\cinemeonlineweb\cinemeonlineweb\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.css.map
+++bootstrap-reboot.min.css
+i:{e7b8bc01-28f6-4f6f-9f6e-6943cafab401}:c:\vlad\c# proj\cinemeonlineweb\cinemeonlineweb\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.min.css
+++bootstrap-reboot.min.css.map
+i:{e7b8bc01-28f6-4f6f-9f6e-6943cafab401}:c:\vlad\c# proj\cinemeonlineweb\cinemeonlineweb\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.min.css.map
+++bootstrap-reboot.rtl.css
+i:{e7b8bc01-28f6-4f6f-9f6e-6943cafab401}:c:\vlad\c# proj\cinemeonlineweb\cinemeonlineweb\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.css
+++bootstrap-reboot.rtl.css.map
+i:{e7b8bc01-28f6-4f6f-9f6e-6943cafab401}:c:\vlad\c# proj\cinemeonlineweb\cinemeonlineweb\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.css.map
+++bootstrap-reboot.rtl.min.css
+i:{e7b8bc01-28f6-4f6f-9f6e-6943cafab401}:c:\vlad\c# proj\cinemeonlineweb\cinemeonlineweb\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.min.css
+++bootstrap-reboot.rtl.min.css.map
+i:{e7b8bc01-28f6-4f6f-9f6e-6943cafab401}:c:\vlad\c# proj\cinemeonlineweb\cinemeonlineweb\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.min.css.map
+++bootstrap-utilities.css
+i:{e7b8bc01-28f6-4f6f-9f6e-6943cafab401}:c:\vlad\c# proj\cinemeonlineweb\cinemeonlineweb\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.css
+++bootstrap-utilities.css.map
+i:{e7b8bc01-28f6-4f6f-9f6e-6943cafab401}:c:\vlad\c# proj\cinemeonlineweb\cinemeonlineweb\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.css.map
+++bootstrap-utilities.min.css
+i:{e7b8bc01-28f6-4f6f-9f6e-6943cafab401}:c:\vlad\c# proj\cinemeonlineweb\cinemeonlineweb\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.min.css
+++bootstrap-utilities.min.css.map
+i:{e7b8bc01-28f6-4f6f-9f6e-6943cafab401}:c:\vlad\c# proj\cinemeonlineweb\cinemeonlineweb\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.min.css.map
+++bootstrap-utilities.rtl.css
+i:{e7b8bc01-28f6-4f6f-9f6e-6943cafab401}:c:\vlad\c# proj\cinemeonlineweb\cinemeonlineweb\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.css
+++bootstrap-utilities.rtl.css.map
+i:{e7b8bc01-28f6-4f6f-9f6e-6943cafab401}:c:\vlad\c# proj\cinemeonlineweb\cinemeonlineweb\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.css.map
+++bootstrap-utilities.rtl.min.css
+i:{e7b8bc01-28f6-4f6f-9f6e-6943cafab401}:c:\vlad\c# proj\cinemeonlineweb\cinemeonlineweb\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.min.css
+++bootstrap-utilities.rtl.min.css.map
+i:{e7b8bc01-28f6-4f6f-9f6e-6943cafab401}:c:\vlad\c# proj\cinemeonlineweb\cinemeonlineweb\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.min.css.map
+++bootstrap.bundle.js
+i:{e7b8bc01-28f6-4f6f-9f6e-6943cafab401}:c:\vlad\c# proj\cinemeonlineweb\cinemeonlineweb\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.js
+++bootstrap.bundle.js.map
+i:{e7b8bc01-28f6-4f6f-9f6e-6943cafab401}:c:\vlad\c# proj\cinemeonlineweb\cinemeonlineweb\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.js.map
+++bootstrap.bundle.min.js
+i:{e7b8bc01-28f6-4f6f-9f6e-6943cafab401}:c:\vlad\c# proj\cinemeonlineweb\cinemeonlineweb\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js
+++bootstrap.bundle.min.js.map
+i:{e7b8bc01-28f6-4f6f-9f6e-6943cafab401}:c:\vlad\c# proj\cinemeonlineweb\cinemeonlineweb\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js.map
+++bootstrap.esm.js
+i:{e7b8bc01-28f6-4f6f-9f6e-6943cafab401}:c:\vlad\c# proj\cinemeonlineweb\cinemeonlineweb\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.js
+++bootstrap.esm.js.map
+i:{e7b8bc01-28f6-4f6f-9f6e-6943cafab401}:c:\vlad\c# proj\cinemeonlineweb\cinemeonlineweb\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.js.map
+++bootstrap.esm.min.js
+i:{e7b8bc01-28f6-4f6f-9f6e-6943cafab401}:c:\vlad\c# proj\cinemeonlineweb\cinemeonlineweb\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.min.js
+++bootstrap.esm.min.js.map
+i:{e7b8bc01-28f6-4f6f-9f6e-6943cafab401}:c:\vlad\c# proj\cinemeonlineweb\cinemeonlineweb\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.min.js.map
+++bootstrap.js
+i:{e7b8bc01-28f6-4f6f-9f6e-6943cafab401}:c:\vlad\c# proj\cinemeonlineweb\cinemeonlineweb\wwwroot\lib\bootstrap\dist\js\bootstrap.js
+++bootstrap.js.map
+i:{e7b8bc01-28f6-4f6f-9f6e-6943cafab401}:c:\vlad\c# proj\cinemeonlineweb\cinemeonlineweb\wwwroot\lib\bootstrap\dist\js\bootstrap.js.map
+++bootstrap.min.js
+i:{e7b8bc01-28f6-4f6f-9f6e-6943cafab401}:c:\vlad\c# proj\cinemeonlineweb\cinemeonlineweb\wwwroot\lib\bootstrap\dist\js\bootstrap.min.js
+++bootstrap.min.js.map
+i:{e7b8bc01-28f6-4f6f-9f6e-6943cafab401}:c:\vlad\c# proj\cinemeonlineweb\cinemeonlineweb\wwwroot\lib\bootstrap\dist\js\bootstrap.min.js.map

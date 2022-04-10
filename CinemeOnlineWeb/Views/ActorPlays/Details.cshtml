@@ -1,0 +1,48 @@
+﻿@model CinemeOnlineWeb.ActorPlay
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h1>Details</h1>
+
+<div>
+    <h4>ActorPlay</h4>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Role)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Role)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Salary)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Salary)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.QuantityScenes)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.QuantityScenes)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Actor)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Actor.ActorId)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Film)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Film.FilmId)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model?.ActorPlayId">Edit</a> |
+    <a asp-action="Index">Back to List</a>
+</div>

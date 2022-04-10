@@ -1,0 +1,41 @@
+﻿@model IEnumerable<CinemeOnlineWeb.CratorsTeam>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.DirectorName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.QuantityPeople)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.DirectorName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.QuantityPeople)
+            </td>
+            <td>
+                <a asp-action="Details" asp-route-id="@item.CreationTeamId">Details</a> |
+                <a asp-controller="Films" asp-action = "Index" asp-route-creationTeamId="@item.CreationTeamId">Films</a> |
+                <a asp-action="Delete" asp-route-id="@item.CreationTeamId">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

@@ -1,0 +1,368 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Films - CinemeOnlineWeb</title>
+    <link rel="stylesheet" href="css/dark-bootstrap.min.css" />
+    <link rel="stylesheet" href="css/site.css?v=RCLwXrgyYTEKUCN6rFWUFouCVS804iq5tq5W72LQYdI" />
+
+</head>
+<body>
+
+
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark box-shadow">
+            <div id="nav-div" class="container-fluid border-bottom">
+                <a class="navbar-brand rounded-logo" href="/">CinemeOnlineWeb</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
+                    <ul class="nav flex-grow-1">
+                        <li class="nav-item">
+                            <a class="nav-link" href="/">Films</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/Actors">Actors</a>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div class="container">
+        <main role="main" class="pb-3">
+
+
+            <h1>Films</h1>
+            <input id="FilterInput" type="text" onkeyup="FilterFilms()" placeholder="Filter Films"/>
+            <table id="FilterTable" class="table">
+                <thead>
+                    <tr>
+                        <th>
+                            Name
+                        </th>
+                        <th>
+                            Release year
+                        </th>
+                        <th>
+                            Duration
+                        </th>
+                        <th>
+                            Spent
+                        </th>
+                        <th>
+                            Director
+                        </th>
+                        <th></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>
+                            Infinity War
+                        </td>
+                        <td>
+                            2018
+                        </td>
+                        <td>
+                            150min
+                        </td>
+                        <td>
+                            316000000
+                        </td>
+                        <td>
+                            <a href="/CratorsTeams/Details?id=1">A. J. Russo</a>
+                        </td>
+                        <td>
+                            <a href="/Films/Details/1"> Actors Roles | </a>
+                            <a href="/Films/Delete?id=1">Delete</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Captain America: The Winter Soldier
+                        </td>
+                        <td>
+                            2014
+                        </td>
+                        <td>
+                            136min
+                        </td>
+                        <td>
+                            170000000
+                        </td>
+                        <td>
+                            <a href="/CratorsTeams/Details?id=1">A. J. Russo</a>
+                        </td>
+                        <td>
+                            <a href="/Films/Details/3"> Actors Roles | </a>
+                            <a href="/Films/Delete?id=3">Delete</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Captain America: Civil War
+                        </td>
+                        <td>
+                            2013
+                        </td>
+                        <td>
+                            147min
+                        </td>
+                        <td>
+                            250000000
+                        </td>
+                        <td>
+                            <a href="/CratorsTeams/Details?id=1">A. J. Russo</a>
+                        </td>
+                        <td>
+                            <a href="/Films/Details/4"> Actors Roles | </a>
+                            <a href="/Films/Delete?id=4">Delete</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Avengers: Endgame
+                        </td>
+                        <td>
+                            2019
+                        </td>
+                        <td>
+                            218min
+                        </td>
+                        <td>
+                            350000000
+                        </td>
+                        <td>
+                            <a href="/CratorsTeams/Details?id=1">A. J. Russo</a>
+                        </td>
+                        <td>
+                            <a href="/Films/Details/5"> Actors Roles | </a>
+                            <a href="/Films/Delete?id=5">Delete</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Spider-Man: Homecoming
+                        </td>
+                        <td>
+                            2015
+                        </td>
+                        <td>
+                            133min
+                        </td>
+                        <td>
+                            175000000
+                        </td>
+                        <td>
+                            <a href="/CratorsTeams/Details?id=2">Jon Watts</a>
+                        </td>
+                        <td>
+                            <a href="/Films/Details/6"> Actors Roles | </a>
+                            <a href="/Films/Delete?id=6">Delete</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Spider-Man: Far From Home
+                        </td>
+                        <td>
+                            2019
+                        </td>
+                        <td>
+                            154min
+                        </td>
+                        <td>
+                            154000000
+                        </td>
+                        <td>
+                            <a href="/CratorsTeams/Details?id=2">Jon Watts</a>
+                        </td>
+                        <td>
+                            <a href="/Films/Details/7"> Actors Roles | </a>
+                            <a href="/Films/Delete?id=7">Delete</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            &#x9;Spider-Man: No Way Home
+                        </td>
+                        <td>
+                            2021
+                        </td>
+                        <td>
+                            160min
+                        </td>
+                        <td>
+                            210000000
+                        </td>
+                        <td>
+                            <a href="/CratorsTeams/Details?id=2">Jon Watts</a>
+                        </td>
+                        <td>
+                            <a href="/Films/Details/8"> Actors Roles | </a>
+                            <a href="/Films/Delete?id=8">Delete</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Cop Car
+                        </td>
+                        <td>
+                            2015
+                        </td>
+                        <td>
+                            142min
+                        </td>
+                        <td>
+                            85000000
+                        </td>
+                        <td>
+                            <a href="/CratorsTeams/Details?id=2">Jon Watts</a>
+                        </td>
+                        <td>
+                            <a href="/Films/Details/9"> Actors Roles | </a>
+                            <a href="/Films/Delete?id=9">Delete</a>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <div class="parent">
+                <div class="block" id="dur-div"></div>
+                <div class="block" id="spent-div"></div>
+                <div class="block" id="role-div"></div>
+            </div>
+
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+            <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+        <script type="text/javascript">
+            google.charts.load("current", { "packages": ["corechart"] });
+
+
+            google.charts.setOnLoadCallback(drawSpentChart);
+            google.charts.setOnLoadCallback(drawDurationChart);
+            google.charts.setOnLoadCallback(drawActorsChart);
+
+
+            function drawDurationChart() {
+
+                var data = google.visualization.arrayToDataTable([["Film", "Duration"], ["Infinity War", 150], ["Captain America: The Winter Soldier", 136], ["Captain America: Civil War", 147], ["Avengers: Endgame", 218], ["Spider-Man: Homecoming", 133], ["Spider-Man: Far From Home", 154], ["\tSpider-Man: No Way Home", 160], ["Cop Car", 142]], false);
+                chart = new google.visualization.PieChart(document.getElementById("dur-div"));
+
+                var options = {
+                    title: "Duration of films",
+                    titleTextStyle: { color: "white" },
+                    legend: { textStyle: { color: "white" } },
+                    chartArea: { width: '85%', height: '75%' },
+                    height: 400,
+                    width: 450,
+                    is3D: true,
+                    backgroundColor: '#222222'
+
+                }
+                chart.draw(data, options);
+            }
+
+            function drawSpentChart() {
+                var rawdata = [["Film", "Spent"], ["Infinity War", 316000000], ["Captain America: The Winter Soldier", 170000000], ["Captain America: Civil War", 250000000], ["Avengers: Endgame", 350000000], ["Spider-Man: Homecoming", 175000000], ["Spider-Man: Far From Home", 154000000], ["\tSpider-Man: No Way Home", 210000000], ["Cop Car", 85000000]];
+                rawdata.forEach(array => array[2] = "yellow");
+                rawdata[0][2] = { role: "style" };
+                console.table(rawdata);
+                var data = google.visualization.arrayToDataTable(rawdata);
+                chart = new google.visualization.ColumnChart(document.getElementById("spent-div"));
+
+                var options = {
+                    title: "Spent on film",
+                    titleTextStyle: { color: 'white' },
+                    height: 400,
+                    width: 500,
+                    chartArea: { backgroundColor: "blue", right: 30, width: '65%', height: '75%' },
+
+                    hAxis: {
+                        textStyle: { color: "white" }
+                    },
+                    legend: {
+                        position: "none"
+                    },
+                    tooltip: {
+                        textStyle: {
+                            color: "green"
+                        }
+                    },
+                    vAxis: {
+                        textStyle: { color: "white" }
+                    },
+                    backgroundColor: "#222222"
+                }
+
+                chart.draw(data, options);
+            }
+
+            function drawActorsChart() {
+                var data = google.visualization.arrayToDataTable([["Film", "Roles"], ["Infinity War", 0], ["Captain America: The Winter Soldier", 0], ["Captain America: Civil War", 0], ["Avengers: Endgame", 0], ["Spider-Man: Homecoming", 7], ["Spider-Man: Far From Home", 6], ["\tSpider-Man: No Way Home", 8], ["Cop Car", 6]], false);
+                chart = new google.visualization.PieChart(document.getElementById("role-div"));
+
+                var options = {
+                    title: "Count of ActorPlays",
+                    titleTextStyle: { color: "white" },
+                    legend: { textStyle: { color: "white" } },
+                    chartArea: { right: 0, width: '90%', height: "80%" },
+                    height: 400,
+                    width: 450,
+                    backgroundColor: '#222222',
+                    pieHole: 0.4
+                }
+                chart.draw(data, options);
+            }
+        </script>
+
+        <script>
+            function FilterFilms() {
+                // Declare variables
+                var input, filter, table, tr, td, i, txtValue;
+                input = document.getElementById("FilterInput");
+                filter = input.value.toUpperCase();
+                table = document.getElementById("FilterTable");
+                tr = table.getElementsByTagName("tr");
+
+                // Loop through all table rows, and hide those who don't match the search query
+                for (i = 0; i < tr.length; i++) {
+                    td = tr[i].getElementsByTagName("td")[0];
+                    if (td) {
+                        txtValue = td.textContent || td.innerText;
+                        if (txtValue.toUpperCase().indexOf(filter) > -1) {
+                            tr[i].style.display = "";
+                        } else {
+                            tr[i].style.display = "none";
+                        }
+                    }
+                }
+            }
+        </script>
+            
+        
+        </main>
+    </div>
+
+    <footer class="border-top text-muted">
+        <div>
+            &copy; 2022 - CinemeOnlineWeb - Privacy<br>
+            Email for communication: v.spotar@knu.ua
+        </div>
+    </footer>
+    <script src="/js/site.js?v=4q1jwFhaPaZgr8WAUSrux6hAuh0XDg9kPS3xIVq36I0"></script>
+    <script src="js/mod-styles-scripts.js"></script>
+
+
+    <!-- Visual Studio Browser Link -->
+    <script type="text/javascript" src="https://localhost:44399/a4a973c97f4642c98ae64e627bd7fbd9/browserLink" async="async" id="__browserLink_initializationData" data-requestId="d7fe4233af824734a78e071b7fc9729a" data-requestMappingFromServer="False"></script>
+    <!-- End Browser Link -->
+
+    <script src="/_framework/aspnetcore-browser-refresh.js"></script>
+</body>
+</html>
