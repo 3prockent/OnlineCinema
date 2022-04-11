@@ -79,7 +79,7 @@ namespace CinemeOnlineWeb.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create(ActorPlay actorPlay)
         {
-            if (actorPlay.Salary is < 0)
+            if (actorPlay.Salary is <= 0)
                 ModelState.AddModelError("Salary","Salary must be positive number");
 
             if (actorPlay.QuantityScenes is < 0)

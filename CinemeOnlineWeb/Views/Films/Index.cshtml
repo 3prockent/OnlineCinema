@@ -101,8 +101,8 @@
 
 
     function drawDurationChart() {
-
-        var data = google.visualization.arrayToDataTable([["Film", "Duration"], ["Infinity War", 150], ["Captain America: The Winter Soldier", 136], ["Captain America: Civil War", 147], ["Avengers: Endgame", 218], ["Spider-Man: Homecoming", 133], ["Spider-Man: Far From Home", 154], ["\tSpider-Man: No Way Home", 160], ["Cop Car", 142]], false);
+        $.get("/api/Chart/Duration",function(JsonData){
+            var data = google.visualization.arrayToDataTable(JsonData, false);
         chart = new google.visualization.PieChart(document.getElementById("dur-div"));
 
         var options = {
@@ -116,7 +116,9 @@
             backgroundColor:'#222222'
 
         }
-        chart.draw(data, options);
+            chart.draw(data, options);
+        
+        })
     }
 
     function drawSpentChart() {
@@ -154,7 +156,8 @@
     }
 
     function drawActorsChart() {
-        var data = google.visualization.arrayToDataTable([["Film", "Roles"], ["Infinity War", 0], ["Captain America: The Winter Soldier", 0], ["Captain America: Civil War", 0], ["Avengers: Endgame", 0], ["Spider-Man: Homecoming", 7], ["Spider-Man: Far From Home", 6], ["\tSpider-Man: No Way Home", 8], ["Cop Car", 6]], false);
+        $.get("/api/Chart/Role", function(JsonData){
+        var data = google.visualization.arrayToDataTable(JsonData, false);
         chart = new google.visualization.PieChart(document.getElementById("role-div"));
 
         var options = {
@@ -168,6 +171,8 @@
             pieHole: 0.4
         }
         chart.draw(data, options);
+
+        })
     } 
 </script>  <!--ChartScript-->
 
