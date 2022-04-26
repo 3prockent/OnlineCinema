@@ -3,9 +3,9 @@ i:{00000000-0000-0000-0000-000000000000}:CinemeOnlineWeb.sln
 ++CinemeOnlineWeb
 i:{00000000-0000-0000-0000-000000000000}:CinemeOnlineWeb
 ++Connected Services 
-i:{e7b8bc01-28f6-4f6f-9f6e-6943cafab401}:>2823
+i:{e7b8bc01-28f6-4f6f-9f6e-6943cafab401}:>2849
 ++Dependencies
-i:{e7b8bc01-28f6-4f6f-9f6e-6943cafab401}:>2822
+i:{e7b8bc01-28f6-4f6f-9f6e-6943cafab401}:>2848
 ++Properties
 i:{e7b8bc01-28f6-4f6f-9f6e-6943cafab401}:c:\vlad\c# proj\cinemeonlineweb\cinemeonlineweb\properties\
 ++wwwroot
@@ -13,21 +13,29 @@ i:{e7b8bc01-28f6-4f6f-9f6e-6943cafab401}:c:\vlad\c# proj\cinemeonlineweb\cinemeo
 ++css
 i:{e7b8bc01-28f6-4f6f-9f6e-6943cafab401}:c:\vlad\c# proj\cinemeonlineweb\cinemeonlineweb\wwwroot\css\
 i:{e7b8bc01-28f6-4f6f-9f6e-6943cafab401}:c:\vlad\c# proj\cinemeonlineweb\cinemeonlineweb\wwwroot\lib\bootstrap\dist\css\
+++dark-bootstrap.css
+i:{e7b8bc01-28f6-4f6f-9f6e-6943cafab401}:c:\vlad\c# proj\cinemeonlineweb\cinemeonlineweb\wwwroot\css\dark-bootstrap.css
+++dark-bootstrap.min.css
+i:{e7b8bc01-28f6-4f6f-9f6e-6943cafab401}:c:\vlad\c# proj\cinemeonlineweb\cinemeonlineweb\wwwroot\css\dark-bootstrap.min.css
+++site.css
+i:{e7b8bc01-28f6-4f6f-9f6e-6943cafab401}:c:\vlad\c# proj\cinemeonlineweb\cinemeonlineweb\wwwroot\css\site.css
 ++js
 i:{e7b8bc01-28f6-4f6f-9f6e-6943cafab401}:c:\vlad\c# proj\cinemeonlineweb\cinemeonlineweb\wwwroot\js\
 i:{e7b8bc01-28f6-4f6f-9f6e-6943cafab401}:c:\vlad\c# proj\cinemeonlineweb\cinemeonlineweb\wwwroot\lib\bootstrap\dist\js\
-++colormania-12-0.exe
-i:{e7b8bc01-28f6-4f6f-9f6e-6943cafab401}:c:\vlad\c# proj\cinemeonlineweb\cinemeonlineweb\wwwroot\js\colormania-12-0.exe
+++dotnet-sdk-6.0.202-win-x64.exe
+i:{e7b8bc01-28f6-4f6f-9f6e-6943cafab401}:c:\vlad\c# proj\cinemeonlineweb\cinemeonlineweb\wwwroot\js\dotnet-sdk-6.0.202-win-x64.exe
 ++jquery-3.6.0.js
 i:{e7b8bc01-28f6-4f6f-9f6e-6943cafab401}:c:\vlad\c# proj\cinemeonlineweb\cinemeonlineweb\wwwroot\js\jquery-3.6.0.js
 ++report.js
 i:{e7b8bc01-28f6-4f6f-9f6e-6943cafab401}:c:\vlad\c# proj\cinemeonlineweb\cinemeonlineweb\wwwroot\js\report.js
+++Setup.Microsoft.PowerAutomate.exe
+i:{e7b8bc01-28f6-4f6f-9f6e-6943cafab401}:c:\vlad\c# proj\cinemeonlineweb\cinemeonlineweb\wwwroot\js\setup.microsoft.powerautomate.exe
 ++site.js
 i:{e7b8bc01-28f6-4f6f-9f6e-6943cafab401}:c:\vlad\c# proj\cinemeonlineweb\cinemeonlineweb\wwwroot\js\site.js
 ++Test.js
 i:{e7b8bc01-28f6-4f6f-9f6e-6943cafab401}:c:\vlad\c# proj\cinemeonlineweb\cinemeonlineweb\wwwroot\js\test.js
-++TLauncher-2.841-Installer-0.9.8.exe
-i:{e7b8bc01-28f6-4f6f-9f6e-6943cafab401}:c:\vlad\c# proj\cinemeonlineweb\cinemeonlineweb\wwwroot\js\tlauncher-2.841-installer-0.9.8.exe
+++vlc-3.0.16-win64.exe
+i:{e7b8bc01-28f6-4f6f-9f6e-6943cafab401}:c:\vlad\c# proj\cinemeonlineweb\cinemeonlineweb\wwwroot\js\vlc-3.0.16-win64.exe
 ++lib
 i:{e7b8bc01-28f6-4f6f-9f6e-6943cafab401}:c:\vlad\c# proj\cinemeonlineweb\cinemeonlineweb\wwwroot\lib\
 ++favicon.ico
@@ -36,6 +44,8 @@ i:{e7b8bc01-28f6-4f6f-9f6e-6943cafab401}:c:\vlad\c# proj\cinemeonlineweb\cinemeo
 i:{e7b8bc01-28f6-4f6f-9f6e-6943cafab401}:c:\vlad\c# proj\cinemeonlineweb\cinemeonlineweb\wwwroot\test.html
 ++Controllers
 i:{e7b8bc01-28f6-4f6f-9f6e-6943cafab401}:c:\vlad\c# proj\cinemeonlineweb\cinemeonlineweb\controllers\
+++AccountController.cs
+i:{e7b8bc01-28f6-4f6f-9f6e-6943cafab401}:c:\vlad\c# proj\cinemeonlineweb\cinemeonlineweb\controllers\accountcontroller.cs
 ++ActorPlaysController.cs
 i:{e7b8bc01-28f6-4f6f-9f6e-6943cafab401}:c:\vlad\c# proj\cinemeonlineweb\cinemeonlineweb\controllers\actorplayscontroller.cs
 ++ActorsController.cs
@@ -68,42 +78,59 @@ i:{e7b8bc01-28f6-4f6f-9f6e-6943cafab401}:c:\vlad\c# proj\cinemeonlineweb\cinemeo
 i:{e7b8bc01-28f6-4f6f-9f6e-6943cafab401}:c:\vlad\c# proj\cinemeonlineweb\cinemeonlineweb\models\film.cs
 ++FilmAward.cs
 i:{e7b8bc01-28f6-4f6f-9f6e-6943cafab401}:c:\vlad\c# proj\cinemeonlineweb\cinemeonlineweb\models\filmaward.cs
+++IdentityContext.cs
+i:{e7b8bc01-28f6-4f6f-9f6e-6943cafab401}:c:\vlad\c# proj\cinemeonlineweb\cinemeonlineweb\models\identitycontext.cs
 ++Response.cs
 i:{e7b8bc01-28f6-4f6f-9f6e-6943cafab401}:c:\vlad\c# proj\cinemeonlineweb\cinemeonlineweb\models\response.cs
+++User.cs
+i:{e7b8bc01-28f6-4f6f-9f6e-6943cafab401}:c:\vlad\c# proj\cinemeonlineweb\cinemeonlineweb\models\user.cs
+++ViewModels
+i:{e7b8bc01-28f6-4f6f-9f6e-6943cafab401}:c:\vlad\c# proj\cinemeonlineweb\cinemeonlineweb\viewmodels\
+++LoginViewModel.cs
+i:{e7b8bc01-28f6-4f6f-9f6e-6943cafab401}:c:\vlad\c# proj\cinemeonlineweb\cinemeonlineweb\viewmodels\loginviewmodel.cs
+++RegisterViewModel.cs
+i:{e7b8bc01-28f6-4f6f-9f6e-6943cafab401}:c:\vlad\c# proj\cinemeonlineweb\cinemeonlineweb\viewmodels\registerviewmodel.cs
 ++Views
 i:{e7b8bc01-28f6-4f6f-9f6e-6943cafab401}:c:\vlad\c# proj\cinemeonlineweb\cinemeonlineweb\views\
+++Account
+i:{e7b8bc01-28f6-4f6f-9f6e-6943cafab401}:c:\vlad\c# proj\cinemeonlineweb\cinemeonlineweb\views\account\
+++Login.cshtml
+i:{e7b8bc01-28f6-4f6f-9f6e-6943cafab401}:c:\vlad\c# proj\cinemeonlineweb\cinemeonlineweb\views\account\login.cshtml
+++Register.cshtml
+i:{e7b8bc01-28f6-4f6f-9f6e-6943cafab401}:c:\vlad\c# proj\cinemeonlineweb\cinemeonlineweb\views\account\register.cshtml
 ++ActorPlays
 i:{e7b8bc01-28f6-4f6f-9f6e-6943cafab401}:c:\vlad\c# proj\cinemeonlineweb\cinemeonlineweb\views\actorplays\
 ++Create.cshtml
 i:{e7b8bc01-28f6-4f6f-9f6e-6943cafab401}:c:\vlad\c# proj\cinemeonlineweb\cinemeonlineweb\views\actorplays\create.cshtml
-i:{e7b8bc01-28f6-4f6f-9f6e-6943cafab401}:c:\vlad\c# proj\cinemeonlineweb\cinemeonlineweb\views\films\create.cshtml
 i:{e7b8bc01-28f6-4f6f-9f6e-6943cafab401}:c:\vlad\c# proj\cinemeonlineweb\cinemeonlineweb\views\actors\create.cshtml
 i:{e7b8bc01-28f6-4f6f-9f6e-6943cafab401}:c:\vlad\c# proj\cinemeonlineweb\cinemeonlineweb\views\cratorsteams\create.cshtml
+i:{e7b8bc01-28f6-4f6f-9f6e-6943cafab401}:c:\vlad\c# proj\cinemeonlineweb\cinemeonlineweb\views\films\create.cshtml
 ++Delete.cshtml
 i:{e7b8bc01-28f6-4f6f-9f6e-6943cafab401}:c:\vlad\c# proj\cinemeonlineweb\cinemeonlineweb\views\actorplays\delete.cshtml
-i:{e7b8bc01-28f6-4f6f-9f6e-6943cafab401}:c:\vlad\c# proj\cinemeonlineweb\cinemeonlineweb\views\films\delete.cshtml
 i:{e7b8bc01-28f6-4f6f-9f6e-6943cafab401}:c:\vlad\c# proj\cinemeonlineweb\cinemeonlineweb\views\actors\delete.cshtml
 i:{e7b8bc01-28f6-4f6f-9f6e-6943cafab401}:c:\vlad\c# proj\cinemeonlineweb\cinemeonlineweb\views\cratorsteams\delete.cshtml
+i:{e7b8bc01-28f6-4f6f-9f6e-6943cafab401}:c:\vlad\c# proj\cinemeonlineweb\cinemeonlineweb\views\films\delete.cshtml
 ++DeleteConfirmed.cshtml
 i:{e7b8bc01-28f6-4f6f-9f6e-6943cafab401}:c:\vlad\c# proj\cinemeonlineweb\cinemeonlineweb\views\actorplays\deleteconfirmed.cshtml
 i:{e7b8bc01-28f6-4f6f-9f6e-6943cafab401}:c:\vlad\c# proj\cinemeonlineweb\cinemeonlineweb\views\films\deleteconfirmed.cshtml
 ++Details.cshtml
 i:{e7b8bc01-28f6-4f6f-9f6e-6943cafab401}:c:\vlad\c# proj\cinemeonlineweb\cinemeonlineweb\views\actorplays\details.cshtml
-i:{e7b8bc01-28f6-4f6f-9f6e-6943cafab401}:c:\vlad\c# proj\cinemeonlineweb\cinemeonlineweb\views\films\details.cshtml
 i:{e7b8bc01-28f6-4f6f-9f6e-6943cafab401}:c:\vlad\c# proj\cinemeonlineweb\cinemeonlineweb\views\actors\details.cshtml
 i:{e7b8bc01-28f6-4f6f-9f6e-6943cafab401}:c:\vlad\c# proj\cinemeonlineweb\cinemeonlineweb\views\cratorsteams\details.cshtml
+i:{e7b8bc01-28f6-4f6f-9f6e-6943cafab401}:c:\vlad\c# proj\cinemeonlineweb\cinemeonlineweb\views\films\details.cshtml
 ++Edit.cshtml
 i:{e7b8bc01-28f6-4f6f-9f6e-6943cafab401}:c:\vlad\c# proj\cinemeonlineweb\cinemeonlineweb\views\actorplays\edit.cshtml
-i:{e7b8bc01-28f6-4f6f-9f6e-6943cafab401}:c:\vlad\c# proj\cinemeonlineweb\cinemeonlineweb\views\films\edit.cshtml
 i:{e7b8bc01-28f6-4f6f-9f6e-6943cafab401}:c:\vlad\c# proj\cinemeonlineweb\cinemeonlineweb\views\actors\edit.cshtml
 i:{e7b8bc01-28f6-4f6f-9f6e-6943cafab401}:c:\vlad\c# proj\cinemeonlineweb\cinemeonlineweb\views\cratorsteams\edit.cshtml
+i:{e7b8bc01-28f6-4f6f-9f6e-6943cafab401}:c:\vlad\c# proj\cinemeonlineweb\cinemeonlineweb\views\films\edit.cshtml
 ++Index.cshtml
 i:{e7b8bc01-28f6-4f6f-9f6e-6943cafab401}:c:\vlad\c# proj\cinemeonlineweb\cinemeonlineweb\views\actorplays\index.cshtml
-i:{e7b8bc01-28f6-4f6f-9f6e-6943cafab401}:c:\vlad\c# proj\cinemeonlineweb\cinemeonlineweb\views\films\index.cshtml
-i:{e7b8bc01-28f6-4f6f-9f6e-6943cafab401}:c:\vlad\c# proj\cinemeonlineweb\cinemeonlineweb\views\shared\index.cshtml
 i:{e7b8bc01-28f6-4f6f-9f6e-6943cafab401}:c:\vlad\c# proj\cinemeonlineweb\cinemeonlineweb\views\actors\index.cshtml
 i:{e7b8bc01-28f6-4f6f-9f6e-6943cafab401}:c:\vlad\c# proj\cinemeonlineweb\cinemeonlineweb\views\cratorsteams\index.cshtml
+i:{e7b8bc01-28f6-4f6f-9f6e-6943cafab401}:c:\vlad\c# proj\cinemeonlineweb\cinemeonlineweb\views\films\index.cshtml
+i:{e7b8bc01-28f6-4f6f-9f6e-6943cafab401}:c:\vlad\c# proj\cinemeonlineweb\cinemeonlineweb\views\shared\index.cshtml
 i:{e7b8bc01-28f6-4f6f-9f6e-6943cafab401}:c:\vlad\c# proj\cinemeonlineweb\cinemeonlineweb\views\home\index.cshtml
+i:{e7b8bc01-28f6-4f6f-9f6e-6943cafab401}:c:\vlad\c# proj\cinemeonlineweb\cinemeonlineweb\views\report\index.cshtml
 ++Actors
 i:{e7b8bc01-28f6-4f6f-9f6e-6943cafab401}:c:\vlad\c# proj\cinemeonlineweb\cinemeonlineweb\views\actors\
 ++CratorsTeams
@@ -112,6 +139,8 @@ i:{e7b8bc01-28f6-4f6f-9f6e-6943cafab401}:c:\vlad\c# proj\cinemeonlineweb\cinemeo
 i:{e7b8bc01-28f6-4f6f-9f6e-6943cafab401}:c:\vlad\c# proj\cinemeonlineweb\cinemeonlineweb\views\films\
 ++Home
 i:{e7b8bc01-28f6-4f6f-9f6e-6943cafab401}:c:\vlad\c# proj\cinemeonlineweb\cinemeonlineweb\views\home\
+++Report
+i:{e7b8bc01-28f6-4f6f-9f6e-6943cafab401}:c:\vlad\c# proj\cinemeonlineweb\cinemeonlineweb\views\report\
 ++Shared
 i:{e7b8bc01-28f6-4f6f-9f6e-6943cafab401}:c:\vlad\c# proj\cinemeonlineweb\cinemeonlineweb\views\shared\
 ++.css
@@ -130,14 +159,24 @@ i:{e7b8bc01-28f6-4f6f-9f6e-6943cafab401}:c:\vlad\c# proj\cinemeonlineweb\cinemeo
 i:{e7b8bc01-28f6-4f6f-9f6e-6943cafab401}:c:\vlad\c# proj\cinemeonlineweb\cinemeonlineweb\views\_viewstart.cshtml
 ++JS.cshtml
 i:{e7b8bc01-28f6-4f6f-9f6e-6943cafab401}:c:\vlad\c# proj\cinemeonlineweb\cinemeonlineweb\views\js.cshtml
+++.gitattributes
+i:{e7b8bc01-28f6-4f6f-9f6e-6943cafab401}:c:\vlad\c# proj\cinemeonlineweb\cinemeonlineweb\.gitattributes
 ++appsettings.Development.json
 i:{e7b8bc01-28f6-4f6f-9f6e-6943cafab401}:c:\vlad\c# proj\cinemeonlineweb\cinemeonlineweb\appsettings.development.json
 ++appsettings.json
 i:{e7b8bc01-28f6-4f6f-9f6e-6943cafab401}:c:\vlad\c# proj\cinemeonlineweb\cinemeonlineweb\appsettings.json
+++empty.xls
+i:{e7b8bc01-28f6-4f6f-9f6e-6943cafab401}:c:\vlad\c# proj\cinemeonlineweb\cinemeonlineweb\empty.xls
 ++Program.cs
 i:{e7b8bc01-28f6-4f6f-9f6e-6943cafab401}:c:\vlad\c# proj\cinemeonlineweb\cinemeonlineweb\program.cs
+++Site review.mkv
+i:{e7b8bc01-28f6-4f6f-9f6e-6943cafab401}:c:\vlad\c# proj\cinemeonlineweb\cinemeonlineweb\site review.mkv
+++testSite.xls
+i:{e7b8bc01-28f6-4f6f-9f6e-6943cafab401}:c:\vlad\c# proj\cinemeonlineweb\cinemeonlineweb\testsite.xls
+++testSite.xlsx
+i:{e7b8bc01-28f6-4f6f-9f6e-6943cafab401}:c:\vlad\c# proj\cinemeonlineweb\cinemeonlineweb\testsite.xlsx
 ++No service dependencies discovered
-i:{e7b8bc01-28f6-4f6f-9f6e-6943cafab401}:>2824
+i:{e7b8bc01-28f6-4f6f-9f6e-6943cafab401}:>2850
 ++Analyzers
 i:{e7b8bc01-28f6-4f6f-9f6e-6943cafab401}:analyzers
 ++Frameworks
@@ -146,12 +185,6 @@ i:{e7b8bc01-28f6-4f6f-9f6e-6943cafab401}:frameworks
 i:{e7b8bc01-28f6-4f6f-9f6e-6943cafab401}:packages
 ++launchSettings.json
 i:{e7b8bc01-28f6-4f6f-9f6e-6943cafab401}:c:\vlad\c# proj\cinemeonlineweb\cinemeonlineweb\properties\launchsettings.json
-++dark-bootstrap.css
-i:{e7b8bc01-28f6-4f6f-9f6e-6943cafab401}:c:\vlad\c# proj\cinemeonlineweb\cinemeonlineweb\wwwroot\css\dark-bootstrap.css
-++dark-bootstrap.min.css
-i:{e7b8bc01-28f6-4f6f-9f6e-6943cafab401}:c:\vlad\c# proj\cinemeonlineweb\cinemeonlineweb\wwwroot\css\dark-bootstrap.min.css
-++site.css
-i:{e7b8bc01-28f6-4f6f-9f6e-6943cafab401}:c:\vlad\c# proj\cinemeonlineweb\cinemeonlineweb\wwwroot\css\site.css
 ++bootstrap
 i:{e7b8bc01-28f6-4f6f-9f6e-6943cafab401}:c:\vlad\c# proj\cinemeonlineweb\cinemeonlineweb\wwwroot\lib\bootstrap\
 ++jquery
@@ -162,6 +195,8 @@ i:{e7b8bc01-28f6-4f6f-9f6e-6943cafab401}:c:\vlad\c# proj\cinemeonlineweb\cinemeo
 i:{e7b8bc01-28f6-4f6f-9f6e-6943cafab401}:c:\vlad\c# proj\cinemeonlineweb\cinemeonlineweb\wwwroot\lib\jquery-validation-unobtrusive\
 ++Privacy.cshtml
 i:{e7b8bc01-28f6-4f6f-9f6e-6943cafab401}:c:\vlad\c# proj\cinemeonlineweb\cinemeonlineweb\views\home\privacy.cshtml
+++Index.cshtml.cs
+i:{e7b8bc01-28f6-4f6f-9f6e-6943cafab401}:c:\vlad\c# proj\cinemeonlineweb\cinemeonlineweb\views\report\index.cshtml.cs
 ++MessagePackAnalyzer
 i:{e7b8bc01-28f6-4f6f-9f6e-6943cafab401}:c:\users\admin\.nuget\packages\messagepackanalyzer\2.1.152\analyzers\dotnet\messagepackanalyzer.dll
 ++Microsoft.AspNetCore.Analyzers
@@ -197,25 +232,29 @@ i:{e7b8bc01-28f6-4f6f-9f6e-6943cafab401}:c:\vlad\c# proj\cinemeonlineweb\cinemeo
 ++Microsoft.NETCore.App
 i:{e7b8bc01-28f6-4f6f-9f6e-6943cafab401}:c:\vlad\c# proj\cinemeonlineweb\cinemeonlineweb\microsoft.netcore.app
 ++bootstrap.chosen (1.0.0)
-i:{e7b8bc01-28f6-4f6f-9f6e-6943cafab401}:>2849
+i:{e7b8bc01-28f6-4f6f-9f6e-6943cafab401}:>2865
 ++ClosedXML (0.95.4)
-i:{e7b8bc01-28f6-4f6f-9f6e-6943cafab401}:>2854
+i:{e7b8bc01-28f6-4f6f-9f6e-6943cafab401}:>2870
+++Microsoft.AspNetCore.Identity.EntityFrameworkCore (6.0.2)
+i:{e7b8bc01-28f6-4f6f-9f6e-6943cafab401}:>2888
 ++Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation (6.0.2)
-i:{e7b8bc01-28f6-4f6f-9f6e-6943cafab401}:>2846
+i:{e7b8bc01-28f6-4f6f-9f6e-6943cafab401}:>2862
 ++Microsoft.EntityFrameworkCore (6.0.2)
-i:{e7b8bc01-28f6-4f6f-9f6e-6943cafab401}:>2847
+i:{e7b8bc01-28f6-4f6f-9f6e-6943cafab401}:>2863
 ++Microsoft.EntityFrameworkCore.SqlServer (6.0.2)
-i:{e7b8bc01-28f6-4f6f-9f6e-6943cafab401}:>2848
+i:{e7b8bc01-28f6-4f6f-9f6e-6943cafab401}:>2864
 ++Microsoft.EntityFrameworkCore.SqlServer.Design (2.0.0-preview1-final)
-i:{e7b8bc01-28f6-4f6f-9f6e-6943cafab401}:>2845
+i:{e7b8bc01-28f6-4f6f-9f6e-6943cafab401}:>2861
 ++Microsoft.EntityFrameworkCore.Tools (6.0.2)
-i:{e7b8bc01-28f6-4f6f-9f6e-6943cafab401}:>2852
+i:{e7b8bc01-28f6-4f6f-9f6e-6943cafab401}:>2868
 ++Microsoft.Extensions.Configuration.Json (6.0.2-mauipre.1.22054.8)
-i:{e7b8bc01-28f6-4f6f-9f6e-6943cafab401}:>2851
-++Microsoft.VisualStudio.Web.CodeGeneration.Design (6.0.2)
-i:{e7b8bc01-28f6-4f6f-9f6e-6943cafab401}:>2853
+i:{e7b8bc01-28f6-4f6f-9f6e-6943cafab401}:>2867
+++Microsoft.VisualStudio.Web.CodeGeneration.Design (6.0.3)
+i:{e7b8bc01-28f6-4f6f-9f6e-6943cafab401}:>2906
+++Swashbuckle.AspNetCore (6.3.0)
+i:{e7b8bc01-28f6-4f6f-9f6e-6943cafab401}:>2904
 ++System.Configuration.ConfigurationManager (6.0.2-mauipre.1.22054.8)
-i:{e7b8bc01-28f6-4f6f-9f6e-6943cafab401}:>2850
+i:{e7b8bc01-28f6-4f6f-9f6e-6943cafab401}:>2866
 ++dist
 i:{e7b8bc01-28f6-4f6f-9f6e-6943cafab401}:c:\vlad\c# proj\cinemeonlineweb\cinemeonlineweb\wwwroot\lib\bootstrap\dist\
 i:{e7b8bc01-28f6-4f6f-9f6e-6943cafab401}:c:\vlad\c# proj\cinemeonlineweb\cinemeonlineweb\wwwroot\lib\jquery\dist\

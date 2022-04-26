@@ -29,6 +29,9 @@
     </dl>
 </div>
 <div>
-    <a asp-action="Edit" asp-route-id="@Model?.ActorId">Edit</a> |
+    @if(User.IsInRole("admin") || User.IsInRole("editor"))
+    {
+        <a asp-action="Edit" asp-route-id="@Model?.ActorId">Edit |</a> 
+    }
     <a asp-action="Index" asp-controller="Actors">View all actors</a>
 </div>

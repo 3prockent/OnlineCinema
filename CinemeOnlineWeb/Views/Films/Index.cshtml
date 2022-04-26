@@ -75,8 +75,11 @@
                 <a asp-controller="CratorsTeams" asp-action="Details" asp-route-id="@item.CreationTeamId">@Html.DisplayFor(modelItem => item.CreationTeam.DirectorName)</a>
             </td>
             <td>
-                <a asp-action="Details" asp-route-filmId="@item.FilmId"> Actors Roles | </a>
-                <a asp-action="Delete" asp-route-id="@item.FilmId">Delete</a>
+                <a asp-action="Details" asp-route-filmId="@item.FilmId"> Actors Roles </a>
+                @if (User.IsInRole("admin"))
+                {
+                    <a asp-action="Delete" asp-route-id="@item.FilmId">| Delete</a>                    
+                }
             </td>
         </tr>
     }

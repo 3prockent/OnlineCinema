@@ -31,6 +31,9 @@
     </dl>
 </div>
 <div>
-    <a asp-action="Edit" asp-route-id="@Model?.CreationTeamId">Edit</a> |
+    @if(User.IsInRole("admin") || User.IsInRole("editor"))
+    {
+        <a asp-action="Edit" asp-route-id="@Model?.CreationTeamId">Edit |</a>
+    }
     <a asp-action="Index">Look all creators</a>
 </div>

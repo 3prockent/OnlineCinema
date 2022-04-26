@@ -1,0 +1,32 @@
+﻿ @model CinemeOnlineWeb.ViewModels.LoginViewModel
+
+@{
+    ViewData["Title"] = "Login";
+}
+
+<h1>Login @Model.ReturnUrl</h1>
+<div class=col-md-4>
+    <form asp-controller="Account" asp-action="Login" method = "post">
+        <div asp-validation-summary="ModelOnly"></div>
+         <div>
+            <input asp-for="ReturnUrl" value="@Model.ReturnUrl" hidden/>
+        </div>
+
+
+        <div class="form-group">
+            <label asp-for="UserName" class="control-label"></label><br/>
+            <input asp-for="UserName" class="form-control"/>
+            <span asp-validation-for="UserName" class="text-danger"></span>
+        </div>
+
+        <div class="form-group">
+            <label asp-for="Password" class="control-label"></label><br/>
+            <input asp-for="Password" type="password" class="form-control"/>
+            <span asp-validation-for="Password" class="text-danger"></span>
+        </div>
+
+        <div>
+            <input type="submit" value="Login" class="btn btn-primary" />
+        </div>
+    </form> 
+</div>

@@ -7,6 +7,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using CinemeOnlineWeb;
+using Microsoft.AspNetCore.Authorization;
 
 namespace CinemeOnlineWeb.Controllers
 {
@@ -72,6 +73,7 @@ namespace CinemeOnlineWeb.Controllers
         }
 
         // GET: CratorsTeams/Edit/5
+        [Authorize(Roles = "admin, editor")]
         public async Task<IActionResult> Edit(int? id)
         {
             if (id == null)
@@ -122,6 +124,7 @@ namespace CinemeOnlineWeb.Controllers
 
 
         #region //// GET: CratorsTeams/Delete/5 
+        [Authorize(Roles = "admin")]
         public async Task<IActionResult> Delete(int? id)
         {
             if (id == null)

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "Z7yuLtmgFSV7JkKZjwWo4TbZYEeT94zvtn7bh+9jttc=",
+  "Hash": "HZHP5OWJTLXV5huy26hQPxswUwXGpz2tcsJwzmFCcew=",
   "Source": "CinemeOnlineWeb",
   "BasePath": "_content/CinemeOnlineWeb",
   "Mode": "Default",
@@ -85,6 +85,23 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
+      "Identity": "C:\\Vlad\\C# proj\\CinemeOnlineWeb\\CinemeOnlineWeb\\wwwroot\\js\\dotnet-sdk-6.0.202-win-x64.exe",
+      "SourceId": "CinemeOnlineWeb",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Vlad\\C# proj\\CinemeOnlineWeb\\CinemeOnlineWeb\\wwwroot\\",
+      "BasePath": "_content/CinemeOnlineWeb",
+      "RelativePath": "js/dotnet-sdk-6.0.202-win-x64.exe",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\dotnet-sdk-6.0.202-win-x64.exe"
+    },
+    {
       "Identity": "C:\\Vlad\\C# proj\\CinemeOnlineWeb\\CinemeOnlineWeb\\wwwroot\\js\\jquery-3.6.0.js",
       "SourceId": "CinemeOnlineWeb",
       "SourceType": "Discovered",
@@ -119,6 +136,23 @@
       "OriginalItemSpec": "wwwroot\\js\\report.js"
     },
     {
+      "Identity": "C:\\Vlad\\C# proj\\CinemeOnlineWeb\\CinemeOnlineWeb\\wwwroot\\js\\Setup.Microsoft.PowerAutomate.exe",
+      "SourceId": "CinemeOnlineWeb",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Vlad\\C# proj\\CinemeOnlineWeb\\CinemeOnlineWeb\\wwwroot\\",
+      "BasePath": "_content/CinemeOnlineWeb",
+      "RelativePath": "js/Setup.Microsoft.PowerAutomate.exe",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\Setup.Microsoft.PowerAutomate.exe"
+    },
+    {
       "Identity": "C:\\Vlad\\C# proj\\CinemeOnlineWeb\\CinemeOnlineWeb\\wwwroot\\js\\site.js",
       "SourceId": "CinemeOnlineWeb",
       "SourceType": "Discovered",
@@ -151,6 +185,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\Test.js"
+    },
+    {
+      "Identity": "C:\\Vlad\\C# proj\\CinemeOnlineWeb\\CinemeOnlineWeb\\wwwroot\\js\\vlc-3.0.16-win64.exe",
+      "SourceId": "CinemeOnlineWeb",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Vlad\\C# proj\\CinemeOnlineWeb\\CinemeOnlineWeb\\wwwroot\\",
+      "BasePath": "_content/CinemeOnlineWeb",
+      "RelativePath": "js/vlc-3.0.16-win64.exe",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\vlc-3.0.16-win64.exe"
     },
     {
       "Identity": "C:\\Vlad\\C# proj\\CinemeOnlineWeb\\CinemeOnlineWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",

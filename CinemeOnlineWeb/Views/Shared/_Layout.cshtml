@@ -16,9 +16,6 @@
     <nav class="navbar navbar-expand-lg navbar-dark box-shadow">
         <div id="nav-div" class="container-fluid border-bottom">
             <a class="navbar-brand rounded-logo" href="/">CinemeOnlineWeb</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
             <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
                 <ul class="nav flex-grow-1">
                     <li class="nav-item">
@@ -30,8 +27,35 @@
                     <li class="nav-item">
                         <a class="nav-link" href="/CratorsTeams">Teams</a>
                     </li>
-
                 </ul>
+                <ul class="nav flex-grow-0">
+                    @if (User.Identity.IsAuthenticated)
+                    {
+                        <li class=nav-item>
+                            <p class="nav-text">
+                                Hello @User.Identity.Name
+                            </p>
+                        </li>
+                            @if (User.IsInRole("admin"))
+                            {
+                                <li class="nav-item">
+                                    <a asp-controller="Roles" asp-action="UserList" class=nav-link>Roles</a>
+                                </li>
+                            }
+                            <li class="nav-item">
+                            <a asp-controller="Account" asp-action="Logout" class="nav-text">Logout</a>
+                        </li>
+                    }
+                    else{
+                        <li class="nav-item">
+                            <a asp-controller="Account" asp-action="Login" asp-route-returnUrl="@Context.Request.Path" class="nav-link">Login</a>
+                        </li>
+                        <li class ="nav-item">
+                            <a asp-controller="Account" asp-action="Register" class="nav-link">Register</a>
+                        </li>
+                    }
+                </ul>
+
             </div>
         </div>
     </nav>

@@ -1,0 +1,19 @@
+﻿@model IEnumerable<CinemeOnlineWeb.Models.User>
+
+<h2>Список користувачів</h2>
+<table class="table">
+        <thead>
+            <td>User Name</td>
+            <td>Email</td>
+        </thead>
+    @foreach (var user in Model)
+    {
+        <tr>
+            <td>@user.UserName</td>
+            <td>@user.Email</td>
+            <td>
+                <a class="btn btn-sm btn-primary" asp-action="Edit" asp-route-id="@user.Id">Права доступу</a>
+            </td>
+        </tr>
+    }
+</table>

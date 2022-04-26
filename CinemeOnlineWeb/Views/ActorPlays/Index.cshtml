@@ -1,8 +1,7 @@
 ﻿@model IEnumerable<CinemeOnlineWeb.ActorPlay>
 
 @{
-    ViewData["Title"] = "Roles";
-    Layout = "_Layout2";
+    ViewData["Title"] = "Actor Roles";
 }
 
 
@@ -57,9 +56,16 @@
                 @Html.DisplayFor(modelItem => item.Actor.ActorName)
             </td>
             <td>
-                <a asp-action="Edit" asp-route-id="@item.ActorPlayId">Edit</a> |
-                <a asp-action="Details"  asp-controller="Actors" asp-route-id="@item.Actor.ActorId" asp-route-filmId="@item.FilmId">About Actor</a> |
-                <a asp-action="Delete" asp-route-id="@item.ActorPlayId">Delete</a>
+                @if(User.IsInRole("admin")|| User.IsInRole("editor"))
+                {
+                    <a asp-action="Edit" asp-route-id="@item.ActorPlayId">Edit |</a>
+                }
+                <a asp-action="Details"  asp-controller="Actors" asp-route-id="@item.Actor.ActorId" asp-route-filmId="@item.FilmId">About Actor</a>
+                @if(User.IsInRole("admin"))
+                {
+                   <a asp-action="Delete" asp-route-id="@item.ActorPlayId">| Delete</a>
+                 
+                }
             </td>
         </tr>
 }

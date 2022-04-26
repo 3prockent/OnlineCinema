@@ -34,9 +34,16 @@
             @Html.DisplayFor(model => @formatBirthDate)
             </td>
             <td>
-                <a asp-action="Edit" asp-route-id="@item.ActorId">Edit</a> |
-                <a asp-action="Details" asp-route-id="@item.ActorId">Details</a> |
-                <a asp-action="Delete" asp-route-id="@item.ActorId">Delete</a>
+            @if(User.IsInRole("admin") || User.IsInRole("editor"))
+            {                    
+                <a asp-action="Edit" asp-route-id="@item.ActorId">Edit |</a> 
+            }
+
+                <a asp-action="Details" asp-route-id="@item.ActorId">Details</a> 
+            @if(User.IsInRole("admin") || User.IsInRole("editor"))
+            {                    
+                <a asp-action="Delete" asp-route-id="@item.ActorId">| Delete</a>
+            }
             </td>
         </tr>
 }

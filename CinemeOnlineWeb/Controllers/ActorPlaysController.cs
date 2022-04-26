@@ -8,6 +8,7 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using CinemeOnlineWeb;
 using Microsoft.AspNetCore.Mvc.ModelBinding.Binders;
+using Microsoft.AspNetCore.Authorization;
 
 namespace CinemeOnlineWeb.Controllers
 {
@@ -105,7 +106,7 @@ namespace CinemeOnlineWeb.Controllers
             ViewBag.filmId = actorPlay.FilmId;
             return View(actorPlay);
         }
-
+        [Authorize(Roles="admin, editor")]
         // GET: ActorPlays/Edit/5
         public async Task<IActionResult> Edit(int? id)
         {
@@ -157,6 +158,7 @@ namespace CinemeOnlineWeb.Controllers
         }
 
         // GET: ActorPlays/Delete/5
+        [Authorize(Roles = "admin")]
         public async Task<IActionResult> Delete(int? id)
         {
             if (id == null)
@@ -195,10 +197,5 @@ namespace CinemeOnlineWeb.Controllers
             return _context.ActorPlays.Any(e => e.ActorPlayId == id);
         }
     }
-    //public struct SelectedValue
-    //{
-    //    public string Text;
-    //    public int ? Id;
-
-    //}
+ 
 }

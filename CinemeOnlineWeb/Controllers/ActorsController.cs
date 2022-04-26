@@ -7,6 +7,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using CinemeOnlineWeb;
+using Microsoft.AspNetCore.Authorization;
 
 namespace CinemeOnlineWeb.Controllers
 {
@@ -68,6 +69,7 @@ namespace CinemeOnlineWeb.Controllers
         }
 
         // GET: Actors/Edit/5
+        [Authorize(Roles ="admin, editor")]
         public async Task<IActionResult> Edit(int? id)
         {
             if (id == null)
@@ -115,6 +117,7 @@ namespace CinemeOnlineWeb.Controllers
         }
 
         // GET: Actors/Delete/5
+        [Authorize(Roles ="admin")]
         public async Task<IActionResult> Delete(int? id)
         {
             if (id == null)

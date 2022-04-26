@@ -7,6 +7,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using CinemeOnlineWeb;
+using Microsoft.AspNetCore.Authorization;
 
 namespace CinemeOnlineWeb.Controllers
 {
@@ -108,61 +109,7 @@ namespace CinemeOnlineWeb.Controllers
             return View(film);
         }
 
-        #region// GET: Films/Edit/5
-        //public async Task<IActionResult> Edit(int? id)
-        //{
-        //    if (id == null)
-        //    {
-        //        return NotFound();
-        //    }
-
-        //    var film = await _context.Films.FindAsync(id);
-        //    if (film == null)
-        //    {
-        //        return NotFound();
-        //    }
-        //    ViewData["CreationTeamId"] = new SelectList(_context.CratorsTeams, "CreationTeamId", "CreationTeamId", film.CreationTeamId);
-        //    return View(film);
-        //}
-        #endregion
-
-        #region // POST: Films/Edit/5
-        // To protect from overposting attacks, enable the specific properties you want to bind to.
-        // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
-        //[HttpPost]
-        //[ValidateAntiForgeryToken]
-        //public async Task<IActionResult> Edit(int id, [Bind("FilmId,FilmName,YearRelease,Duration,Cost,CreationTeamId")] Film film)
-        //{
-        //    if (id != film.FilmId)
-        //    {
-        //        return NotFound();
-        //    }
-
-        //    if (ModelState.IsValid)
-        //    {
-        //        try
-        //        {
-        //            _context.Update(film);
-        //            await _context.SaveChangesAsync();
-        //        }
-        //        catch (DbUpdateConcurrencyException)
-        //        {
-        //            if (!FilmExists(film.FilmId))
-        //            {
-        //                return NotFound();
-        //            }
-        //            else
-        //            {
-        //                throw;
-        //            }
-        //        }
-        //        return RedirectToAction(nameof(Index));
-        //    }
-        //    ViewData["CreationTeamId"] = new SelectList(_context.CratorsTeams, "CreationTeamId", "CreationTeamId", film.CreationTeamId);
-        //    return View(film);
-        //}
-        #endregion
-
+        [Authorize(Roles = "admin")]
         // GET: Films/Delete/5
         public async Task<IActionResult> Delete(int? id)
         {

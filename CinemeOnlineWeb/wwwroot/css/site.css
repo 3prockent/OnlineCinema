@@ -68,3 +68,8 @@ html, body {
 .block {
     display: inline-block;
 }
+
+.nav-text{
+    display:block;
+    padding: 0.5rem 2rem;
+}

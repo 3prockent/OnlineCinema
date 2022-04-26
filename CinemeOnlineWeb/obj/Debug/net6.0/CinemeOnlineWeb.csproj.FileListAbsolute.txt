@@ -571,3 +571,12 @@ C:\Vlad\C# proj\CinemeOnlineWeb\CinemeOnlineWeb\bin\Debug\net6.0\ClosedXML.dll
 C:\Vlad\C# proj\CinemeOnlineWeb\CinemeOnlineWeb\bin\Debug\net6.0\DocumentFormat.OpenXml.dll
 C:\Vlad\C# proj\CinemeOnlineWeb\CinemeOnlineWeb\bin\Debug\net6.0\ExcelNumberFormat.dll
 C:\Vlad\C# proj\CinemeOnlineWeb\CinemeOnlineWeb\bin\Debug\net6.0\System.IO.Packaging.dll
+C:\Vlad\C# proj\CinemeOnlineWeb\CinemeOnlineWeb\bin\Debug\net6.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Vlad\C# proj\CinemeOnlineWeb\CinemeOnlineWeb\bin\Debug\net6.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\Vlad\C# proj\CinemeOnlineWeb\CinemeOnlineWeb\bin\Debug\net6.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Vlad\C# proj\CinemeOnlineWeb\CinemeOnlineWeb\bin\Debug\net6.0\Microsoft.Extensions.Identity.Core.dll
+C:\Vlad\C# proj\CinemeOnlineWeb\CinemeOnlineWeb\bin\Debug\net6.0\Microsoft.Extensions.Identity.Stores.dll
+C:\Vlad\C# proj\CinemeOnlineWeb\CinemeOnlineWeb\bin\Debug\net6.0\Microsoft.OpenApi.dll
+C:\Vlad\C# proj\CinemeOnlineWeb\CinemeOnlineWeb\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Vlad\C# proj\CinemeOnlineWeb\CinemeOnlineWeb\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Vlad\C# proj\CinemeOnlineWeb\CinemeOnlineWeb\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll

@@ -22,7 +22,7 @@
 
                 <input type="hidden" asp-for="FilmId" value="@ViewBag.filmId">
                
-                <div class=form-group>
+                <div class="form-group">
                     <label asp-for="ActorId" class ="control-label">Actor</label>
                     @Html.DropDownList("ActorId", ViewBag.ActorId as SelectList)
                     <span asp-validation-for="ActorId" class="text-danger"></span>
